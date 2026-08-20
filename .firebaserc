@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "motc-4ebdb"
+  },
+  "targets": {
+    "motc-4ebdb": {
+      "hosting": {
+        "catwalk": [
+          "motc-ui-catwalk"
+        ]
+      }
+    }
+  }
+}

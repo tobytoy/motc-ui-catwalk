@@ -1,0 +1,65 @@
+{
+  "title": "TDX 國道高快速路網即時導航與旅行時間預報",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "corridors": [
+    {
+      "freeway": "國道一號 (中山高)",
+      "section": "圓山 ➔ 機場系統",
+      "distanceKm": "28.5 km",
+      "travelTimeMin": 22,
+      "normalTimeMin": 20,
+      "status": "順暢",
+      "speedAvg": "88 km/h",
+      "color": "#10b981"
+    },
+    {
+      "freeway": "國道三號 (福高)",
+      "section": "新店 ➔ 鶯歌系統",
+      "distanceKm": "32.0 km",
+      "travelTimeMin": 24,
+      "normalTimeMin": 23,
+      "status": "順暢",
+      "speedAvg": "92 km/h",
+      "color": "#10b981"
+    },
+    {
+      "freeway": "國道五號 (蔣渭水高)",
+      "section": "南港系統 ➔ 頭城 (雪隧)",
+      "distanceKm": "30.2 km",
+      "travelTimeMin": 38,
+      "normalTimeMin": 28,
+      "status": "車多慢行",
+      "speedAvg": "48 km/h",
+      "color": "#f59e0b"
+    }
+  ],
+  "serviceAreas": [
+    {
+      "name": "中壢服務區",
+      "freeway": "國道一號 55K",
+      "vacantSpaces": 118,
+      "totalSpaces": 280,
+      "electricSpaces": 8,
+      "occupancyRate": "58%",
+      "status": "停車空間充裕"
+    },
+    {
+      "name": "關西服務區",
+      "freeway": "國道三號 76K",
+      "vacantSpaces": 245,
+      "totalSpaces": 450,
+      "electricSpaces": 12,
+      "occupancyRate": "45%",
+      "status": "停車空間充裕"
+    },
+    {
+      "name": "石碇服務區",
+      "freeway": "國道五號 4K",
+      "vacantSpaces": 22,
+      "totalSpaces": 160,
+      "electricSpaces": 4,
+      "occupancyRate": "86%",
+      "status": "車位吃緊"
+    }
+  ]
+}

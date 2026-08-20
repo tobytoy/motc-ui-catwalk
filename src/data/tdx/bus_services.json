@@ -1,0 +1,118 @@
+{
+  "title": "TDX 都會公車即時動態與智慧轉乘",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "activeLines": [
+    {
+      "routeId": "307",
+      "name": "307 (撫遠街 ⇄ 板橋前站)",
+      "provider": "臺北客運 / 首都客運",
+      "etaMin": 2,
+      "plate": "KKA-8921",
+      "crowdLevel": "舒適 (35%)",
+      "isElectric": true,
+      "isLowFloor": true,
+      "nextStop": "捷運松江南京站",
+      "stops": [
+        {
+          "name": "南京敦化路口 (小巨蛋)",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "南京復興路口",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "捷運松江南京站",
+          "eta": "2 分 (即將進站)",
+          "current": true
+        },
+        {
+          "name": "南京一江街口",
+          "eta": "5 分"
+        },
+        {
+          "name": "台北車站 (忠孝)",
+          "eta": "9 分"
+        },
+        {
+          "name": "西門市場",
+          "eta": "14 分"
+        }
+      ]
+    },
+    {
+      "routeId": "承德幹線",
+      "name": "承德幹線 (新北投 ⇄ 捷運市政府)",
+      "provider": "大南汽車",
+      "etaMin": 4,
+      "plate": "EAL-1052",
+      "crowdLevel": "微擠 (65%)",
+      "isElectric": true,
+      "isLowFloor": true,
+      "nextStop": "圓山轉運站",
+      "stops": [
+        {
+          "name": "士林國中",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "劍潭站 (基河)",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "圓山轉運站",
+          "eta": "4 分",
+          "current": true
+        },
+        {
+          "name": "大同國小",
+          "eta": "7 分"
+        },
+        {
+          "name": "民權大龍街口",
+          "eta": "11 分"
+        }
+      ]
+    },
+    {
+      "routeId": "299",
+      "name": "299 (輔仁大學 ⇄ 永春高中)",
+      "provider": "三重客運 / 大都會客運",
+      "etaMin": 1,
+      "plate": "651-FZ",
+      "crowdLevel": "座位充足 (20%)",
+      "isElectric": false,
+      "isLowFloor": true,
+      "nextStop": "新莊地政事務所",
+      "stops": [
+        {
+          "name": "捷運輔大站",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "盲人重建院",
+          "eta": "已過站",
+          "passed": true
+        },
+        {
+          "name": "新莊地政事務所",
+          "eta": "1 分 (進站中)",
+          "current": true
+        },
+        {
+          "name": "新泰路口",
+          "eta": "4 分"
+        },
+        {
+          "name": "捷運新莊站",
+          "eta": "6 分"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5693 @@
+[
+  {
+    "RouteUID": "THB0968",
+    "RouteID": "0968",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "16",
+        "OperatorName": {
+          "Zh_tw": "亞通客運",
+          "En": "Yatung Bus Co., Ltd."
+        },
+        "OperatorCode": "YatungBus",
+        "OperatorNo": "0702"
+      },
+      {
+        "OperatorID": "35",
+        "OperatorName": {
+          "Zh_tw": "葛瑪蘭客運",
+          "En": "Kamalan Bus Co., Ltd."
+        },
+        "OperatorCode": "KamalanBus",
+        "OperatorNo": "1308"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB096801",
+        "SubRouteID": "096801",
+        "OperatorIDs": [
+          "16",
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "0968",
+          "En": "0968"
+        },
+        "Headsign": "桃園市蘆竹區→國道1號→圓山轉運站",
+        "HeadsignEn": "Taoyuan County Dajhu area→National Freeway No.1→Yuanshan Transfer Station",
+        "Direction": 0,
+        "DepartureStopNameZh": "大竹消防隊",
+        "DepartureStopNameEn": "Dajhu Fire Brigade",
+        "DestinationStopNameZh": "庫倫街口",
+        "DestinationStopNameEn": "Kulun St. Entrance"
+      },
+      {
+        "SubRouteUID": "THB096802",
+        "SubRouteID": "096802",
+        "OperatorIDs": [
+          "16",
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "0968",
+          "En": "0968"
+        },
+        "Headsign": "圓山轉運站→國道1號→桃園市蘆竹區",
+        "HeadsignEn": "Yuanshan Transfer Station→National Freeway No.1→Taoyuan County Dajhu area",
+        "Direction": 1,
+        "DepartureStopNameZh": "庫倫街口",
+        "DepartureStopNameEn": "Kulun St. Entrance",
+        "DestinationStopNameZh": "大竹消防隊",
+        "DestinationStopNameEn": "Dajhu Fire Brigade"
+      },
+      {
+        "SubRouteUID": "THB0968A1",
+        "SubRouteID": "0968A1",
+        "OperatorIDs": [
+          "16",
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "0968A",
+          "En": "0968A"
+        },
+        "Headsign": "桃園市蘆竹區→國道1號→圓山轉運站[經開南大學]",
+        "HeadsignEn": "Taoyuan County Dajhu area→National Freeway No.1→Yuanshan Transfer Station(Via Kainan University)",
+        "Direction": 0,
+        "DepartureStopNameZh": "開南大學",
+        "DepartureStopNameEn": "Kainan University",
+        "DestinationStopNameZh": "庫倫街口",
+        "DestinationStopNameEn": "Kulun St. Entrance"
+      },
+      {
+        "SubRouteUID": "THB0968A2",
+        "SubRouteID": "0968A2",
+        "OperatorIDs": [
+          "16",
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "0968A",
+          "En": "0968A"
+        },
+        "Headsign": "圓山轉運站→國道1號→桃園市蘆竹區[經開南大學]",
+        "HeadsignEn": "Yuanshan Transfer Station→National Freeway No.1→Taoyuan County Dajhu area(Via Kainan University)",
+        "Direction": 1,
+        "DepartureStopNameZh": "庫倫街口",
+        "DepartureStopNameEn": "Kulun St. Entrance",
+        "DestinationStopNameZh": "開南大學",
+        "DestinationStopNameEn": "Kainan University"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "0968",
+      "En": "0968"
+    },
+    "DepartureStopNameZh": "大竹消防隊",
+    "DepartureStopNameEn": "Dajhu Fire Brigade",
+    "DestinationStopNameZh": "庫倫街口",
+    "DestinationStopNameEn": "Kulun St. Entrance",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/0968.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1031",
+    "RouteID": "1031",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB103101",
+        "SubRouteID": "103101",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1031",
+          "En": "1031"
+        },
+        "Headsign": "國家新城→汐止樟樹灣",
+        "HeadsignEn": "Guojiaxincheng→Xizhi Zhangshuwan",
+        "Direction": 0,
+        "DepartureStopNameZh": "國家新城",
+        "DepartureStopNameEn": "Guojia Xincheng",
+        "DestinationStopNameZh": "樟樹國際實中",
+        "DestinationStopNameEn": "Zhangshu Junior High School"
+      },
+      {
+        "SubRouteUID": "THB103102",
+        "SubRouteID": "103102",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1031",
+          "En": "1031"
+        },
+        "Headsign": "汐止樟樹灣→國家新城",
+        "HeadsignEn": "Xizhi Zhangshuwan→Guojiaxincheng",
+        "Direction": 1,
+        "DepartureStopNameZh": "樟樹國際實中",
+        "DepartureStopNameEn": "Zhangshu Junior High School",
+        "DestinationStopNameZh": "國家新城",
+        "DestinationStopNameEn": "Guojia Xincheng"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1031",
+      "En": "1031"
+    },
+    "DepartureStopNameZh": "國家新城",
+    "DepartureStopNameEn": "Guojia Xincheng",
+    "DestinationStopNameZh": "樟樹國際實中",
+    "DestinationStopNameEn": "Zhangshu Junior High School",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1031.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1032",
+    "RouteID": "1032",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB103201",
+        "SubRouteID": "103201",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1032",
+          "En": "1032"
+        },
+        "Headsign": "基隆→南港轉運站",
+        "HeadsignEn": "Keelung→Nangang Bus Station",
+        "Direction": 0,
+        "DepartureStopNameZh": "國家新城",
+        "DepartureStopNameEn": "Guojia Xincheng",
+        "DestinationStopNameZh": "南港轉運站西站",
+        "DestinationStopNameEn": "Nangang Bus Station(West)"
+      },
+      {
+        "SubRouteUID": "THB103202",
+        "SubRouteID": "103202",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1032",
+          "En": "1032"
+        },
+        "Headsign": "南港轉運站→基隆",
+        "HeadsignEn": "Nangang Bus Stationo→Keelung",
+        "Direction": 1,
+        "DepartureStopNameZh": "南港轉運站西站",
+        "DepartureStopNameEn": "Nangang Bus Station(West)",
+        "DestinationStopNameZh": "龍騰大地社區",
+        "DestinationStopNameEn": "Longtengdadi Community"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1032",
+      "En": "1032"
+    },
+    "DepartureStopNameZh": "國家新城",
+    "DepartureStopNameEn": "Guojia Xincheng",
+    "DestinationStopNameZh": "南港轉運站西站",
+    "DestinationStopNameEn": "Nangang Bus Station(West)",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1032.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1061",
+    "RouteID": "1061",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB106101",
+        "SubRouteID": "106101",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1061",
+          "En": "1061"
+        },
+        "Headsign": "臺北市→中山高速公路→新北市瑞芳區[不經暖暖區公所]",
+        "HeadsignEn": "Taipei City→National Freeway No. 1→New Taipei City Ruifang District  (Not Via Nuannuan District Office)",
+        "Direction": 0,
+        "DepartureStopNameZh": "捷運忠孝復興站",
+        "DepartureStopNameEn": "MRT Zhongxiao Fuxing Sta.",
+        "DestinationStopNameZh": "區民廣場",
+        "DestinationStopNameEn": "Resident Square"
+      },
+      {
+        "SubRouteUID": "THB106102",
+        "SubRouteID": "106102",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1061",
+          "En": "1061"
+        },
+        "Headsign": "新北市瑞芳區→中山高速公路→臺北市[不經暖暖區公所]",
+        "HeadsignEn": "New Taipei City Ruifang District →National Freeway No. 1→Taipei City(Not Via Nuannuan District Office)",
+        "Direction": 1,
+        "DepartureStopNameZh": "瑞芳火車站",
+        "DepartureStopNameEn": "TRA Ruifang Station",
+        "DestinationStopNameZh": "捷運忠孝復興站",
+        "DestinationStopNameEn": "MRT Zhongxiao Fuxing Sta."
+      },
+      {
+        "SubRouteUID": "THB1061A1",
+        "SubRouteID": "1061A1",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1061A",
+          "En": "1061A"
+        },
+        "Headsign": "臺北市→中山高速公路→新北市瑞芳區[經暖暖區公所]",
+        "HeadsignEn": "Taipei City→National Freeway No. 1→New Taipei City Ruifang District(Via Nuannuan District Office)",
+        "Direction": 0,
+        "DepartureStopNameZh": "捷運忠孝復興站",
+        "DepartureStopNameEn": "MRT Zhongxiao Fuxing Sta.",
+        "DestinationStopNameZh": "區民廣場",
+        "DestinationStopNameEn": "Resident Square"
+      },
+      {
+        "SubRouteUID": "THB1061A2",
+        "SubRouteID": "1061A2",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1061A",
+          "En": "1061A"
+        },
+        "Headsign": "新北市瑞芳區→中山高速公路→臺北市[經暖暖區公所]",
+        "HeadsignEn": "New Taipei City Ruifang District→National Freeway No. 1→Taipei City(Via Nuannuan District Office)",
+        "Direction": 1,
+        "DepartureStopNameZh": "瑞芳火車站",
+        "DepartureStopNameEn": "TRA Ruifang Station",
+        "DestinationStopNameZh": "捷運忠孝復興站",
+        "DestinationStopNameEn": "MRT Zhongxiao Fuxing Sta."
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1061",
+      "En": "1061"
+    },
+    "DepartureStopNameZh": "捷運忠孝復興站",
+    "DepartureStopNameEn": "MRT Zhongxiao Fuxing Sta.",
+    "DestinationStopNameZh": "區民廣場",
+    "DestinationStopNameEn": "Resident Square",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1061.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1062",
+    "RouteID": "1062",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB106201",
+        "SubRouteID": "106201",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1062",
+          "En": "1062"
+        },
+        "Headsign": "臺北市→中山高速公路→新北市瑞芳區→金瓜石",
+        "HeadsignEn": "Taipei City→National Freeway No. 1→Jinguashi",
+        "Direction": 0,
+        "DepartureStopNameZh": "捷運忠孝復興站",
+        "DepartureStopNameEn": "MRT Zhongxiao Fuxing Sta.",
+        "DestinationStopNameZh": "勸濟堂",
+        "DestinationStopNameEn": "Quanji Temple"
+      },
+      {
+        "SubRouteUID": "THB106202",
+        "SubRouteID": "106202",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1062",
+          "En": "1062"
+        },
+        "Headsign": "金瓜石→新北市瑞芳區→中山高速公路→臺北市",
+        "HeadsignEn": "Jinguashi→National Freeway No. 1→Taipei City",
+        "Direction": 1,
+        "DepartureStopNameZh": "勸濟堂",
+        "DepartureStopNameEn": "Quanji Temple",
+        "DestinationStopNameZh": "捷運忠孝復興站",
+        "DestinationStopNameEn": "MRT Zhongxiao Fuxing Sta."
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1062",
+      "En": "1062"
+    },
+    "DepartureStopNameZh": "捷運忠孝復興站",
+    "DepartureStopNameEn": "MRT Zhongxiao Fuxing Sta.",
+    "DestinationStopNameZh": "勸濟堂",
+    "DestinationStopNameEn": "Quanji Temple",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1062.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1068",
+    "RouteID": "1068",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB106801",
+        "SubRouteID": "106801",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1068",
+          "En": "1068"
+        },
+        "Headsign": "新北市金山區→國道3號→臺灣大學",
+        "HeadsignEn": "Jinshan Dist. New Taipei City－National Freeway No.3－National Taiwan University",
+        "Direction": 0,
+        "DepartureStopNameZh": "金山(南勢)",
+        "DepartureStopNameEn": "Jinshan(Nanshi)",
+        "DestinationStopNameZh": "臺大",
+        "DestinationStopNameEn": "National Taiwan Universty"
+      },
+      {
+        "SubRouteUID": "THB106802",
+        "SubRouteID": "106802",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1068",
+          "En": "1068"
+        },
+        "Headsign": "臺灣大學→國道3號→新北市金山區",
+        "HeadsignEn": "National Taiwan University－National Freeway No.3－Jinshan Dist. New Taipei City",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺大",
+        "DepartureStopNameEn": "National Taiwan Universty",
+        "DestinationStopNameZh": "金山(南勢)",
+        "DestinationStopNameEn": "Jinshan(Nanshi)"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1068",
+      "En": "1068"
+    },
+    "DepartureStopNameZh": "金山(南勢)",
+    "DepartureStopNameEn": "Jinshan(Nanshi)",
+    "DestinationStopNameZh": "臺大",
+    "DestinationStopNameEn": "National Taiwan Universty",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1068.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1088",
+    "RouteID": "1088",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "43",
+        "OperatorName": {
+          "Zh_tw": "基隆客運",
+          "En": "Keelung Bus Co., Ltd."
+        },
+        "OperatorCode": "KeelungBus",
+        "OperatorNo": "1102"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB108801",
+        "SubRouteID": "108801",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1088",
+          "En": "1088"
+        },
+        "Headsign": "基隆市(暖暖區)→國道1號→臺北市松山區",
+        "HeadsignEn": "Keelung City(Nuannuan District)→Taipei City Songshan District",
+        "Direction": 0,
+        "DepartureStopNameZh": "四腳亭",
+        "DepartureStopNameEn": "Sijiaoting",
+        "DestinationStopNameZh": "松山車站",
+        "DestinationStopNameEn": "Songshan Station"
+      },
+      {
+        "SubRouteUID": "THB108802",
+        "SubRouteID": "108802",
+        "OperatorIDs": [
+          "43"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1088",
+          "En": "1088"
+        },
+        "Headsign": "臺北市松山區→國道1號→基隆市(暖暖區)",
+        "HeadsignEn": "Taipei city Nangang District─ Keelung City(Nuannuan District)",
+        "Direction": 1,
+        "DepartureStopNameZh": "松山車站",
+        "DepartureStopNameEn": "Songshan Station",
+        "DestinationStopNameZh": "四腳亭",
+        "DestinationStopNameEn": "Sijiaoting"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1088",
+      "En": "1088"
+    },
+    "DepartureStopNameZh": "四腳亭",
+    "DepartureStopNameEn": "Sijiaoting",
+    "DestinationStopNameZh": "松山車站",
+    "DestinationStopNameEn": "Songshan Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1088.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1121",
+    "RouteID": "1121",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB112101",
+        "SubRouteID": "112101",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1121",
+          "En": "1121"
+        },
+        "Headsign": "花蓮火車站→光復[繞駛東華大學]",
+        "HeadsignEn": "Hualien train Station→Guangfu[VIA National Dong Hwa University]",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "光復站",
+        "DestinationStopNameEn": "Guangfu Station"
+      },
+      {
+        "SubRouteUID": "THB112102",
+        "SubRouteID": "112102",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1121",
+          "En": "1121"
+        },
+        "Headsign": "光復→花蓮火車站[繞駛東華大學]",
+        "HeadsignEn": "Guangfu→Hualien train Station[VIA National Dong Hwa University]",
+        "Direction": 1,
+        "DepartureStopNameZh": "光復站",
+        "DepartureStopNameEn": "Guangfu Station",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1121",
+      "En": "1121"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "光復站",
+    "DestinationStopNameEn": "Guangfu Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1121.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1122",
+    "RouteID": "1122",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB112201",
+        "SubRouteID": "112201",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1122",
+          "En": "1122"
+        },
+        "Headsign": "花蓮火車站→瑞穗",
+        "HeadsignEn": "TRA Hualien Station→Ruisui",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "瑞穗",
+        "DestinationStopNameEn": "Ruisui"
+      },
+      {
+        "SubRouteUID": "THB112202",
+        "SubRouteID": "112202",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1122",
+          "En": "1122"
+        },
+        "Headsign": "瑞穗→花蓮火車站",
+        "HeadsignEn": "Ruisui→TRA Hualien Station",
+        "Direction": 1,
+        "DepartureStopNameZh": "瑞穗",
+        "DepartureStopNameEn": "Ruisui",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1122",
+      "En": "1122"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "瑞穗",
+    "DestinationStopNameEn": "Ruisui",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1122.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1125",
+    "RouteID": "1125",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB112501",
+        "SubRouteID": "112501",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1125",
+          "En": "1125"
+        },
+        "Headsign": "光復火車站→豐濱",
+        "HeadsignEn": "TRA Guangfu Station →Fengbin",
+        "Direction": 0,
+        "DepartureStopNameZh": "光復火車站",
+        "DepartureStopNameEn": "TRA Guangfu Station",
+        "DestinationStopNameZh": "豐濱",
+        "DestinationStopNameEn": "Fengbin"
+      },
+      {
+        "SubRouteUID": "THB112502",
+        "SubRouteID": "112502",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1125",
+          "En": "1125"
+        },
+        "Headsign": "豐濱→光復火車站",
+        "HeadsignEn": "Fengbin→TRA Guangfu Station",
+        "Direction": 1,
+        "DepartureStopNameZh": "豐濱",
+        "DepartureStopNameEn": "Fengbin",
+        "DestinationStopNameZh": "光復火車站",
+        "DestinationStopNameEn": "TRA Guangfu Station"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1125",
+      "En": "1125"
+    },
+    "DepartureStopNameZh": "光復火車站",
+    "DepartureStopNameEn": "TRA Guangfu Station",
+    "DestinationStopNameZh": "豐濱",
+    "DestinationStopNameEn": "Fengbin",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1125.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1128",
+    "RouteID": "1128",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB112801",
+        "SubRouteID": "112801",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1128",
+          "En": "1128"
+        },
+        "Headsign": "花蓮→月眉→豐田火車站",
+        "HeadsignEn": "Hualien→Yuemei→TRA Fengtian Station",
+        "Direction": 0,
+        "DepartureStopNameZh": "四維高中",
+        "DepartureStopNameEn": "SZU-WEI senior high school",
+        "DestinationStopNameZh": "豐田火車站",
+        "DestinationStopNameEn": "TRA Fengtian Station"
+      },
+      {
+        "SubRouteUID": "THB112802",
+        "SubRouteID": "112802",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1128",
+          "En": "1128"
+        },
+        "Headsign": "豐田火車站→月眉→花蓮",
+        "HeadsignEn": "TRA Fengtian Station→Yuemei→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "豐田火車站",
+        "DepartureStopNameEn": "TRA Fengtian Station",
+        "DestinationStopNameZh": "四維高中",
+        "DestinationStopNameEn": "SZU-WEI senior high school"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1128",
+      "En": "1128"
+    },
+    "DepartureStopNameZh": "四維高中",
+    "DepartureStopNameEn": "SZU-WEI senior high school",
+    "DestinationStopNameZh": "豐田火車站",
+    "DestinationStopNameEn": "TRA Fengtian Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1128.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1129",
+    "RouteID": "1129",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB112901",
+        "SubRouteID": "112901",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1129",
+          "En": "1129"
+        },
+        "Headsign": "花蓮→太魯閣",
+        "HeadsignEn": "Hualien→Taroko",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "太管處暨遊客中心",
+        "DestinationStopNameEn": "Taroko National Park Headquarters & Visitor Center"
+      },
+      {
+        "SubRouteUID": "THB112902",
+        "SubRouteID": "112902",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1129",
+          "En": "1129"
+        },
+        "Headsign": "太魯閣→花蓮",
+        "HeadsignEn": "Taroko→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "太魯閣國家公園管理處",
+        "DepartureStopNameEn": "Taroko National Park",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1129",
+      "En": "1129"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "太管處暨遊客中心",
+    "DestinationStopNameEn": "Taroko National Park Headquarters & Visitor Center",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1129.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1130",
+    "RouteID": "1130",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113001",
+        "SubRouteID": "113001",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1130",
+          "En": "1130"
+        },
+        "Headsign": "玉里→富里",
+        "HeadsignEn": "Yuli→Fuli",
+        "Direction": 0,
+        "DepartureStopNameZh": "玉里站",
+        "DepartureStopNameEn": "Yuli Station",
+        "DestinationStopNameZh": "富里站",
+        "DestinationStopNameEn": "Fuli Station"
+      },
+      {
+        "SubRouteUID": "THB113002",
+        "SubRouteID": "113002",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1130",
+          "En": "1130"
+        },
+        "Headsign": "富里→玉里",
+        "HeadsignEn": "Fuli→Yuli",
+        "Direction": 1,
+        "DepartureStopNameZh": "富里站",
+        "DepartureStopNameEn": "Fuli Station",
+        "DestinationStopNameZh": "玉里站",
+        "DestinationStopNameEn": "Yuli Station"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1130",
+      "En": "1130"
+    },
+    "DepartureStopNameZh": "玉里站",
+    "DepartureStopNameEn": "Yuli Station",
+    "DestinationStopNameZh": "富里站",
+    "DestinationStopNameEn": "Fuli Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1130.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1132",
+    "RouteID": "1132",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113201",
+        "SubRouteID": "113201",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1132",
+          "En": "1132"
+        },
+        "Headsign": "花蓮→崇德",
+        "HeadsignEn": "Hualien→Chongde",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "崇德",
+        "DestinationStopNameEn": "Chongde"
+      },
+      {
+        "SubRouteUID": "THB113202",
+        "SubRouteID": "113202",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1132",
+          "En": "1132"
+        },
+        "Headsign": "崇德→花蓮",
+        "HeadsignEn": "Chongde→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "崇德",
+        "DepartureStopNameEn": "Chongde",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      },
+      {
+        "SubRouteUID": "THB1132A1",
+        "SubRouteID": "1132A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1132A",
+          "En": "1132A"
+        },
+        "Headsign": "花蓮→崇德[繞駛四維高中]",
+        "HeadsignEn": "Hualien→Chongde(via SZU—WEI senior high school)",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "崇德",
+        "DestinationStopNameEn": "Chongde"
+      },
+      {
+        "SubRouteUID": "THB1132A2",
+        "SubRouteID": "1132A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1132A",
+          "En": "1132A"
+        },
+        "Headsign": "崇德→花蓮[繞駛四維高中]",
+        "HeadsignEn": "Chongde→Hualien(via SZU—WEI senior high school)",
+        "Direction": 1,
+        "DepartureStopNameZh": "崇德",
+        "DepartureStopNameEn": "Chongde",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1132",
+      "En": "1132"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "崇德",
+    "DestinationStopNameEn": "Chongde",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1132.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1133",
+    "RouteID": "1133",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113301",
+        "SubRouteID": "113301",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1133",
+          "En": "1133"
+        },
+        "Headsign": "花蓮→天祥",
+        "HeadsignEn": "Hualien→Tianxiang",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "天祥",
+        "DestinationStopNameEn": "Tianxiang"
+      },
+      {
+        "SubRouteUID": "THB113302",
+        "SubRouteID": "113302",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1133",
+          "En": "1133"
+        },
+        "Headsign": "天祥→花蓮",
+        "HeadsignEn": "Tianxiang→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "天祥",
+        "DepartureStopNameEn": "Tianxiang",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1133",
+      "En": "1133"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "天祥",
+    "DestinationStopNameEn": "Tianxiang",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1133.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1135",
+    "RouteID": "1135",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113501",
+        "SubRouteID": "113501",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1135",
+          "En": "1135"
+        },
+        "Headsign": "瑞穗→玉里",
+        "HeadsignEn": "Ruisui→Yuli",
+        "Direction": 0,
+        "DepartureStopNameZh": "瑞穗",
+        "DepartureStopNameEn": "Ruisui",
+        "DestinationStopNameZh": "玉里站",
+        "DestinationStopNameEn": "Yuli Station"
+      },
+      {
+        "SubRouteUID": "THB113502",
+        "SubRouteID": "113502",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1135",
+          "En": "1135"
+        },
+        "Headsign": "玉里→瑞穗",
+        "HeadsignEn": "Yuli→Ruisui",
+        "Direction": 1,
+        "DepartureStopNameZh": "玉里站",
+        "DepartureStopNameEn": "Yuli Station",
+        "DestinationStopNameZh": "瑞穗",
+        "DestinationStopNameEn": "Ruisui"
+      },
+      {
+        "SubRouteUID": "THB1135A1",
+        "SubRouteID": "1135A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1135A",
+          "En": "1135A"
+        },
+        "Headsign": "瑞穗→玉里[延駛玉里榮民醫院]",
+        "HeadsignEn": "Ruisui→Yuli(Yuli Veterans Hospital)",
+        "Direction": 0,
+        "DepartureStopNameZh": "瑞穗",
+        "DepartureStopNameEn": "Ruisui",
+        "DestinationStopNameZh": "玉里榮民醫院",
+        "DestinationStopNameEn": "Yuli Veterans Hospital"
+      },
+      {
+        "SubRouteUID": "THB1135A2",
+        "SubRouteID": "1135A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1135A",
+          "En": "1135A"
+        },
+        "Headsign": "玉里→瑞穗[延駛玉里榮民醫院]",
+        "HeadsignEn": "Yuli→Ruisui(Yuli Veterans Hospital)",
+        "Direction": 1,
+        "DepartureStopNameZh": "玉里榮民醫院",
+        "DepartureStopNameEn": "Yuli Veterans Hospital",
+        "DestinationStopNameZh": "瑞穗",
+        "DestinationStopNameEn": "Ruisui"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1135",
+      "En": "1135"
+    },
+    "DepartureStopNameZh": "瑞穗",
+    "DepartureStopNameEn": "Ruisui",
+    "DestinationStopNameZh": "玉里站",
+    "DestinationStopNameEn": "Yuli Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1135.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1136",
+    "RouteID": "1136",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113601",
+        "SubRouteID": "113601",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1136",
+          "En": "1136"
+        },
+        "Headsign": "花蓮→秀林",
+        "HeadsignEn": "Hualien→Xiulin",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "亞洲水泥廠",
+        "DestinationStopNameEn": "Asia Cement Factory"
+      },
+      {
+        "SubRouteUID": "THB113602",
+        "SubRouteID": "113602",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1136",
+          "En": "1136"
+        },
+        "Headsign": "秀林→花蓮",
+        "HeadsignEn": "Xiulin→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "亞洲水泥廠",
+        "DepartureStopNameEn": "Asia Cement Factory",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1136",
+      "En": "1136"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "亞洲水泥廠",
+    "DestinationStopNameEn": "Asia Cement Factory",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1136.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1137",
+    "RouteID": "1137",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113701",
+        "SubRouteID": "113701",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1137",
+          "En": "1137"
+        },
+        "Headsign": "光復→富里",
+        "HeadsignEn": "Guangfu→Fuli",
+        "Direction": 0,
+        "DepartureStopNameZh": "光復站",
+        "DepartureStopNameEn": "Guangfu Station",
+        "DestinationStopNameZh": "富里站",
+        "DestinationStopNameEn": "Fuli Station"
+      },
+      {
+        "SubRouteUID": "THB113702",
+        "SubRouteID": "113702",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1137",
+          "En": "1137"
+        },
+        "Headsign": "富里→光復",
+        "HeadsignEn": "Fuli→Guangfu",
+        "Direction": 1,
+        "DepartureStopNameZh": "富里站",
+        "DepartureStopNameEn": "Fuli Station",
+        "DestinationStopNameZh": "光復站",
+        "DestinationStopNameEn": "Guangfu Station"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1137",
+      "En": "1137"
+    },
+    "DepartureStopNameZh": "光復站",
+    "DepartureStopNameEn": "Guangfu Station",
+    "DestinationStopNameZh": "富里站",
+    "DestinationStopNameEn": "Fuli Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1137.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1139",
+    "RouteID": "1139",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB113901",
+        "SubRouteID": "113901",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139",
+          "En": "1139"
+        },
+        "Headsign": "花蓮→壽豐",
+        "HeadsignEn": "Hualien→Shoufeng",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "壽豐火車站",
+        "DestinationStopNameEn": "Shoufeng TRA"
+      },
+      {
+        "SubRouteUID": "THB113902",
+        "SubRouteID": "113902",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139",
+          "En": "1139"
+        },
+        "Headsign": "壽豐→花蓮",
+        "HeadsignEn": "Shoufeng→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "壽豐火車站",
+        "DepartureStopNameEn": "Shoufeng TRA",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      },
+      {
+        "SubRouteUID": "THB1139B1",
+        "SubRouteID": "1139B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139B",
+          "En": "1139B"
+        },
+        "Headsign": "花蓮→壽豐[繞駛四維高中]",
+        "HeadsignEn": "Hualien→Shoufeng(via SZU—WEI senior high school)",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "壽豐火車站",
+        "DestinationStopNameEn": "Shoufeng TRA"
+      },
+      {
+        "SubRouteUID": "THB1139B2",
+        "SubRouteID": "1139B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139B",
+          "En": "1139B"
+        },
+        "Headsign": "壽豐→花蓮[繞駛四維高中]",
+        "HeadsignEn": "Shoufeng→Hualien(via SZU—WEI senior high school)",
+        "Direction": 1,
+        "DepartureStopNameZh": "壽豐火車站",
+        "DepartureStopNameEn": "Shoufeng TRA",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      },
+      {
+        "SubRouteUID": "THB1139C1",
+        "SubRouteID": "1139C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139C",
+          "En": "1139C"
+        },
+        "Headsign": "花蓮→壽豐",
+        "HeadsignEn": "Hualien→Shoufeng",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "壽豐火車站",
+        "DestinationStopNameEn": "Shoufeng TRA"
+      },
+      {
+        "SubRouteUID": "THB1139C2",
+        "SubRouteID": "1139C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1139C",
+          "En": "1139C"
+        },
+        "Headsign": "壽豐→花蓮",
+        "HeadsignEn": "Shoufeng→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "壽豐火車站",
+        "DepartureStopNameEn": "Shoufeng TRA",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1139",
+      "En": "1139"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "壽豐火車站",
+    "DestinationStopNameEn": "Shoufeng TRA",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1139.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1140",
+    "RouteID": "1140",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB114001",
+        "SubRouteID": "114001",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1140",
+          "En": "1140"
+        },
+        "Headsign": "花蓮→靜浦",
+        "HeadsignEn": "Hualien→Jinpu",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "靜浦",
+        "DestinationStopNameEn": "Jingpu"
+      },
+      {
+        "SubRouteUID": "THB114002",
+        "SubRouteID": "114002",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1140",
+          "En": "1140"
+        },
+        "Headsign": "靜浦→花蓮",
+        "HeadsignEn": "Jinpu→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "靜浦",
+        "DepartureStopNameEn": "Jingpu",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      },
+      {
+        "SubRouteUID": "THB1140A1",
+        "SubRouteID": "1140A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1140A",
+          "En": "1140A"
+        },
+        "Headsign": "花蓮→靜浦[繞駛四維高中]",
+        "HeadsignEn": "Hualien→Jinpu(via SZU—WEI senior high school)",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "靜浦",
+        "DestinationStopNameEn": "Jingpu"
+      },
+      {
+        "SubRouteUID": "THB1140A2",
+        "SubRouteID": "1140A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1140A",
+          "En": "1140A"
+        },
+        "Headsign": "靜浦→花蓮[繞駛四維高中]",
+        "HeadsignEn": "Jinpu→Hualien(via SZU—WEI senior high school)",
+        "Direction": 1,
+        "DepartureStopNameZh": "靜浦",
+        "DepartureStopNameEn": "Jingpu",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1140",
+      "En": "1140"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "靜浦",
+    "DestinationStopNameEn": "Jingpu",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1140.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1141",
+    "RouteID": "1141",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB114101",
+        "SubRouteID": "114101",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1141",
+          "En": "1141"
+        },
+        "Headsign": "花蓮→臺中(梨山)",
+        "HeadsignEn": "Hualien→Taichung(Lishan)",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "梨山",
+        "DestinationStopNameEn": "Lishan"
+      },
+      {
+        "SubRouteUID": "THB114102",
+        "SubRouteID": "114102",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1141",
+          "En": "1141"
+        },
+        "Headsign": "臺中(梨山)→花蓮",
+        "HeadsignEn": "Taichung(Lishan)→Hualien",
+        "Direction": 1,
+        "DepartureStopNameZh": "梨山",
+        "DepartureStopNameEn": "Lishan",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      },
+      {
+        "SubRouteUID": "THB1141A1",
+        "SubRouteID": "1141A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1141A",
+          "En": "1141A"
+        },
+        "Headsign": "花蓮→太魯閣國家公園管理處",
+        "HeadsignEn": "TRA Hualien Station→Taroko National Park",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "太魯閣國家公園管理處",
+        "DestinationStopNameEn": "Taroko National Park"
+      },
+      {
+        "SubRouteUID": "THB1141A2",
+        "SubRouteID": "1141A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1141A",
+          "En": "1141A"
+        },
+        "Headsign": "太魯閣國家公園管理處→花蓮",
+        "HeadsignEn": "Taroko National Park→TRA Hualien Station",
+        "Direction": 1,
+        "DepartureStopNameZh": "太魯閣國家公園管理處",
+        "DepartureStopNameEn": "Taroko National Park",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1141",
+      "En": "1141"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "梨山",
+    "DestinationStopNameEn": "Lishan",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1141.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1142",
+    "RouteID": "1142",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB114201",
+        "SubRouteID": "114201",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1142",
+          "En": "1142"
+        },
+        "Headsign": "光復→玉里",
+        "HeadsignEn": "Guangfu→Yuli",
+        "Direction": 0,
+        "DepartureStopNameZh": "光復站",
+        "DepartureStopNameEn": "Guangfu Station",
+        "DestinationStopNameZh": "玉里站",
+        "DestinationStopNameEn": "Yuli Station"
+      },
+      {
+        "SubRouteUID": "THB114202",
+        "SubRouteID": "114202",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1142",
+          "En": "1142"
+        },
+        "Headsign": "玉里→光復",
+        "HeadsignEn": "Yuli→Guangfu",
+        "Direction": 1,
+        "DepartureStopNameZh": "玉里站",
+        "DepartureStopNameEn": "Yuli Station",
+        "DestinationStopNameZh": "光復站",
+        "DestinationStopNameEn": "Guangfu Station"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1142",
+      "En": "1142"
+    },
+    "DepartureStopNameZh": "光復站",
+    "DepartureStopNameEn": "Guangfu Station",
+    "DestinationStopNameZh": "玉里站",
+    "DestinationStopNameEn": "Yuli Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1142.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1143",
+    "RouteID": "1143",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB114301",
+        "SubRouteID": "114301",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1143",
+          "En": "1143"
+        },
+        "Headsign": "瑞穗→紅葉",
+        "HeadsignEn": "Ruisui→Hongye",
+        "Direction": 0,
+        "DepartureStopNameZh": "瑞穗",
+        "DepartureStopNameEn": "Ruisui",
+        "DestinationStopNameZh": "紅葉",
+        "DestinationStopNameEn": "Hongye"
+      },
+      {
+        "SubRouteUID": "THB114302",
+        "SubRouteID": "114302",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1143",
+          "En": "1143"
+        },
+        "Headsign": "紅葉→瑞穗",
+        "HeadsignEn": "Hongye→Ruisui",
+        "Direction": 1,
+        "DepartureStopNameZh": "紅葉",
+        "DepartureStopNameEn": "Hongye",
+        "DestinationStopNameZh": "瑞穗",
+        "DestinationStopNameEn": "Ruisui"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1143",
+      "En": "1143"
+    },
+    "DepartureStopNameZh": "瑞穗",
+    "DepartureStopNameEn": "Ruisui",
+    "DestinationStopNameZh": "紅葉",
+    "DestinationStopNameEn": "Hongye",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1143.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1145",
+    "RouteID": "1145",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "114",
+        "OperatorName": {
+          "Zh_tw": "興東客運"
+        },
+        "OperatorCode": "",
+        "OperatorNo": "1602"
+      },
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB114501",
+        "SubRouteID": "114501",
+        "OperatorIDs": [
+          "114",
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1145",
+          "En": "1145"
+        },
+        "Headsign": "花蓮火車站→成功",
+        "HeadsignEn": "TRA Hualian Station→Chenggong Station",
+        "Direction": 0,
+        "DepartureStopNameZh": "花蓮轉運站",
+        "DepartureStopNameEn": "Hualien Bus Sation",
+        "DestinationStopNameZh": "成功",
+        "DestinationStopNameEn": "Chenggong Station"
+      },
+      {
+        "SubRouteUID": "THB114502",
+        "SubRouteID": "114502",
+        "OperatorIDs": [
+          "114",
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1145",
+          "En": "1145"
+        },
+        "Headsign": "成功→花蓮火車站",
+        "HeadsignEn": "Chenggong Station→TRA Hualian Station",
+        "Direction": 1,
+        "DepartureStopNameZh": "成功",
+        "DepartureStopNameEn": "Chenggong Station",
+        "DestinationStopNameZh": "花蓮轉運站",
+        "DestinationStopNameEn": "Hualien Bus Sation"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1145",
+      "En": "1145"
+    },
+    "DepartureStopNameZh": "花蓮轉運站",
+    "DepartureStopNameEn": "Hualien Bus Sation",
+    "DestinationStopNameZh": "成功",
+    "DestinationStopNameEn": "Chenggong Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1145.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1191",
+    "RouteID": "1191",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "38",
+        "OperatorName": {
+          "Zh_tw": "新北客運",
+          "En": "New Taipei Bus Co., Ltd."
+        },
+        "OperatorCode": "NewTaipeiBus",
+        "OperatorNo": "1302"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB119101",
+        "SubRouteID": "119101",
+        "OperatorIDs": [
+          "38"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1191",
+          "En": "1191"
+        },
+        "Headsign": "中崙→台五線→基隆",
+        "HeadsignEn": "Zhonglun→Provincial Highway No.5→Keelung",
+        "Direction": 0,
+        "DepartureStopNameZh": "中崙",
+        "DepartureStopNameEn": "Zhonglun",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB119102",
+        "SubRouteID": "119102",
+        "OperatorIDs": [
+          "38"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1191",
+          "En": "1191"
+        },
+        "Headsign": "基隆→台五線→中崙",
+        "HeadsignEn": "Keelung→Provincial Highway No.5→Zhonglun",
+        "Direction": 1,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "中崙",
+        "DestinationStopNameEn": "Zhonglun"
+      }
+    ],
+    "BusRouteType": 12,
+    "RouteName": {
+      "Zh_tw": "1191",
+      "En": "1191"
+    },
+    "DepartureStopNameZh": "中崙",
+    "DepartureStopNameEn": "Zhonglun",
+    "DestinationStopNameZh": "基隆轉運站",
+    "DestinationStopNameEn": "Keelung Transit Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1191.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1250",
+    "RouteID": "1250",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "92",
+        "OperatorName": {
+          "Zh_tw": "日豪客運"
+        },
+        "OperatorCode": "",
+        "OperatorNo": "0413"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB125001",
+        "SubRouteID": "125001",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1250",
+          "En": "1250"
+        },
+        "Headsign": "新竹轉運站→國道1號→桃園國際機場",
+        "HeadsignEn": "Hsinchu Bus Station→National Freeway No.1→Taoyuan International Airport",
+        "Direction": 0,
+        "DepartureStopNameZh": "新竹轉運站",
+        "DepartureStopNameEn": "Hsinchu bus station",
+        "DestinationStopNameZh": "桃園機場第一航廈",
+        "DestinationStopNameEn": "Terminal 1"
+      },
+      {
+        "SubRouteUID": "THB125002",
+        "SubRouteID": "125002",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1250",
+          "En": "1250"
+        },
+        "Headsign": "桃園國際機場→國道1號→新竹轉運站",
+        "HeadsignEn": "Taoyuan International Airport→National Freeway No.1→Hsinchu Bus Station",
+        "Direction": 1,
+        "DepartureStopNameZh": "桃園機場第一航廈",
+        "DepartureStopNameEn": "Terminal 1",
+        "DestinationStopNameZh": "新竹轉運站",
+        "DestinationStopNameEn": "Hsinchu bus station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1250",
+      "En": "1250"
+    },
+    "DepartureStopNameZh": "新竹轉運站",
+    "DepartureStopNameEn": "Hsinchu bus station",
+    "DestinationStopNameZh": "桃園機場第一航廈",
+    "DestinationStopNameEn": "Terminal 1",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1250.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1356",
+    "RouteID": "1356",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "35",
+        "OperatorName": {
+          "Zh_tw": "葛瑪蘭客運",
+          "En": "Kamalan Bus Co., Ltd."
+        },
+        "OperatorCode": "KamalanBus",
+        "OperatorNo": "1308"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB135601",
+        "SubRouteID": "135601",
+        "OperatorIDs": [
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1356",
+          "En": "1356"
+        },
+        "Headsign": "南崁→國道1號→圓山轉運站[經桃園市蘆竹區中正路]",
+        "HeadsignEn": "Nankan→National Freeway No.1→Yuanshan Bus Station(VIA Zhongzheng Rd., Luzhu Township,Taoyuan County)",
+        "Direction": 0,
+        "DepartureStopNameZh": "溪洲",
+        "DepartureStopNameEn": "Xizhou",
+        "DestinationStopNameZh": "捷運圓山站",
+        "DestinationStopNameEn": "MRT Yuanshan Sta."
+      },
+      {
+        "SubRouteUID": "THB135602",
+        "SubRouteID": "135602",
+        "OperatorIDs": [
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1356",
+          "En": "1356"
+        },
+        "Headsign": "圓山轉運站→國道1號→南崁[經桃園市蘆竹區中正路]",
+        "HeadsignEn": "Yuanshan Bus Station→National Freeway No.1→Nankan(VIA Zhongzheng Rd., Luzhu Township,Taoyuan County)",
+        "Direction": 1,
+        "DepartureStopNameZh": "圓山轉運站(捷運圓山站)",
+        "DepartureStopNameEn": "Yuanshan Bus Station",
+        "DestinationStopNameZh": "溪洲",
+        "DestinationStopNameEn": "Xizhou"
+      },
+      {
+        "SubRouteUID": "THB1356A1",
+        "SubRouteID": "1356A1",
+        "OperatorIDs": [
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1356A",
+          "En": "1356A"
+        },
+        "Headsign": "南崁→國道1號→圓山轉運站[經桃園市蘆竹區中山路]",
+        "HeadsignEn": "Nankan→National Freeway No.1→Yuanshan Bus Station(VIA Zhongshan Rd., Luzhu Township,Taoyuan County)",
+        "Direction": 0,
+        "DepartureStopNameZh": "溪洲",
+        "DepartureStopNameEn": "Xizhou",
+        "DestinationStopNameZh": "捷運圓山站",
+        "DestinationStopNameEn": "MRT Yuanshan Sta."
+      },
+      {
+        "SubRouteUID": "THB1356A2",
+        "SubRouteID": "1356A2",
+        "OperatorIDs": [
+          "35"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1356A",
+          "En": "1356A"
+        },
+        "Headsign": "圓山轉運站→國道1號→南崁[經桃園市蘆竹區中山路]",
+        "HeadsignEn": "Yuanshan Bus Station→National Freeway No.1→Nankan(VIA Zhongshan Rd., Luzhu Township,Taoyuan County)",
+        "Direction": 1,
+        "DepartureStopNameZh": "圓山轉運站(捷運圓山站)",
+        "DepartureStopNameEn": "Yuanshan Bus Station",
+        "DestinationStopNameZh": "溪洲",
+        "DestinationStopNameEn": "Xizhou"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1356",
+      "En": "1356"
+    },
+    "DepartureStopNameZh": "溪洲",
+    "DepartureStopNameEn": "Xizhou",
+    "DestinationStopNameZh": "捷運圓山站",
+    "DestinationStopNameEn": "MRT Yuanshan Sta.",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1356.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1550",
+    "RouteID": "1550",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "87",
+        "OperatorName": {
+          "Zh_tw": "泰樂客運"
+        },
+        "OperatorCode": "",
+        "OperatorNo": "1006"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB155001",
+        "SubRouteID": "155001",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550",
+          "En": "1550"
+        },
+        "Headsign": "基隆→臺北(單迴路線)",
+        "HeadsignEn": "Keelung→Taipei(One Way Route)",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB1550A1",
+        "SubRouteID": "1550A1",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550A",
+          "En": "1550A"
+        },
+        "Headsign": "基隆→臺北 [經建國北路、行天宮 ]",
+        "HeadsignEn": "Keelung→Taipei(Via JianGuo N.Rd、 Xingtian Temple)",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB1550B1",
+        "SubRouteID": "1550B1",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550B",
+          "En": "1550B"
+        },
+        "Headsign": "基隆中山區→臺北 [經建國北路、行天宮]",
+        "HeadsignEn": "Keelung Zhongshan District→Taipei (Via JianGuo N.Rd、Xingtian Temple)",
+        "Direction": 0,
+        "DepartureStopNameZh": "大慶大城社區",
+        "DepartureStopNameEn": "Daqingdacheng Community",
+        "DestinationStopNameZh": "自來水處(辛亥)",
+        "DestinationStopNameEn": "Taipei Water Department(Xinhai)"
+      },
+      {
+        "SubRouteUID": "THB1550B2",
+        "SubRouteID": "1550B2",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550B",
+          "En": "1550B"
+        },
+        "Headsign": "臺北→基隆中山區 [經建國北路、行天宮]",
+        "HeadsignEn": "Taipei→Keelung Zhongshan District (Via JianGuo N.Rd、Xingtian Temple)",
+        "Direction": 1,
+        "DepartureStopNameZh": "自來水處(辛亥)",
+        "DepartureStopNameEn": "Taipei Water Department(Xinhai)",
+        "DestinationStopNameZh": "大慶大城社區",
+        "DestinationStopNameEn": "Daqingdacheng Community"
+      },
+      {
+        "SubRouteUID": "THB1550C1",
+        "SubRouteID": "1550C1",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550C",
+          "En": "1550C"
+        },
+        "Headsign": "基隆中山區→臺北 [經國道3號、建國北路]",
+        "HeadsignEn": "Keelung→Taipei(Via National Freeway No. 3、JianGuo N.Rd)",
+        "Direction": 0,
+        "DepartureStopNameZh": "大慶大城社區",
+        "DepartureStopNameEn": "Daqingdacheng Community",
+        "DestinationStopNameZh": "自來水處(辛亥)",
+        "DestinationStopNameEn": "Taipei Water Department(Xinhai)"
+      },
+      {
+        "SubRouteUID": "THB1550C2",
+        "SubRouteID": "1550C2",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1550C",
+          "En": "1550C"
+        },
+        "Headsign": "臺北→基隆中山區  [經國道3號、建國北路]",
+        "HeadsignEn": "Taipei→Keelung(Via National Freeway No. 3、JianGuo N.Rd)",
+        "Direction": 1,
+        "DepartureStopNameZh": "自來水處(辛亥)",
+        "DepartureStopNameEn": "Taipei Water Department(Xinhai)",
+        "DestinationStopNameZh": "大慶大城社區",
+        "DestinationStopNameEn": "Daqingdacheng Community"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1550",
+      "En": "1550"
+    },
+    "DepartureStopNameZh": "基隆轉運站",
+    "DepartureStopNameEn": "Keelung Transit Station",
+    "DestinationStopNameZh": "基隆轉運站",
+    "DestinationStopNameEn": "Keelung Transit Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1550.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1551",
+    "RouteID": "1551",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "45",
+        "OperatorName": {
+          "Zh_tw": "國光客運",
+          "En": "Kuo-Kuang Bus Co., Ltd."
+        },
+        "OperatorCode": "KuoKuangBus",
+        "OperatorNo": "1101"
+      },
+      {
+        "OperatorID": "52",
+        "OperatorName": {
+          "Zh_tw": "光華巴士",
+          "En": "Kuang-Hua Bus Co., Ltd."
+        },
+        "OperatorCode": "KuangHuaBus.",
+        "OperatorNo": "0601"
+      },
+      {
+        "OperatorID": "68",
+        "OperatorName": {
+          "Zh_tw": "大都會客運",
+          "En": "Metropolitan Bus Co., Ltd."
+        },
+        "OperatorCode": "MetropolitanBus",
+        "OperatorNo": "0303"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB155101",
+        "SubRouteID": "155101",
+        "OperatorIDs": [
+          "45",
+          "52",
+          "68"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1551",
+          "En": "1551"
+        },
+        "Headsign": "基隆→國道1號→新店",
+        "HeadsignEn": "Keelung→National Freeway No.1→Xindian",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "捷運新店站(新店路)",
+        "DestinationStopNameEn": "MRT Xindian Station(Xindian Rd.)"
+      },
+      {
+        "SubRouteUID": "THB155102",
+        "SubRouteID": "155102",
+        "OperatorIDs": [
+          "45",
+          "52",
+          "68"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1551",
+          "En": "1551"
+        },
+        "Headsign": "新店→國道1號→基隆",
+        "HeadsignEn": "Xindian→National Freeway No.1→Keelung",
+        "Direction": 1,
+        "DepartureStopNameZh": "捷運新店站(新店路)",
+        "DepartureStopNameEn": "MRT Xindian Station(Xindian Rd.)",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1551",
+      "En": "1551"
+    },
+    "DepartureStopNameZh": "基隆轉運站",
+    "DepartureStopNameEn": "Keelung Transit Station",
+    "DestinationStopNameZh": "捷運新店站(新店路)",
+    "DestinationStopNameEn": "MRT Xindian Station(Xindian Rd.)",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1551.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1558",
+    "RouteID": "1558",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "87",
+        "OperatorName": {
+          "Zh_tw": "泰樂客運"
+        },
+        "OperatorCode": "",
+        "OperatorNo": "1006"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB155801",
+        "SubRouteID": "155801",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1558",
+          "En": "1558"
+        },
+        "Headsign": "基隆→國道3號→木柵動物園",
+        "HeadsignEn": "Keelung→National Freeway No.3→Taipei Zoo",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "捷運動物園站",
+        "DestinationStopNameEn": "MRT Taipei Zoo Station"
+      },
+      {
+        "SubRouteUID": "THB1558A1",
+        "SubRouteID": "1558A1",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1558A",
+          "En": "1558A"
+        },
+        "Headsign": "基隆→國道3號→木柵動物園[經深坑]",
+        "HeadsignEn": "Keelung→National Freeway No.3→Taipei Zoo(Via Shenkeng)",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "捷運動物園站",
+        "DestinationStopNameEn": "MRT Taipei Zoo Station"
+      },
+      {
+        "SubRouteUID": "THB1558A2",
+        "SubRouteID": "1558A2",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1558A",
+          "En": "1558A"
+        },
+        "Headsign": "木柵動物園→國道3號→基隆[經深坑]",
+        "HeadsignEn": "Taipei Zoo→National Freeway No.3→Keelung(Via Shenkeng)",
+        "Direction": 1,
+        "DepartureStopNameZh": "捷運動物園站",
+        "DepartureStopNameEn": "MRT Taipei Zoo Station",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB1558C1",
+        "SubRouteID": "1558C1",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1558C",
+          "En": "1558C"
+        },
+        "Headsign": "基隆→國道3號→木柵動物園[經深坑、政大 ]",
+        "HeadsignEn": "Keelung→National Freeway No.3→Taipei Zoo(Via Shenkeng、National Chengchi University)",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "捷運動物園站",
+        "DestinationStopNameEn": "MRT Taipei Zoo Station"
+      },
+      {
+        "SubRouteUID": "THB1558C2",
+        "SubRouteID": "1558C2",
+        "OperatorIDs": [
+          "87"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1558C",
+          "En": "1558C"
+        },
+        "Headsign": "木柵動物園→國道3號→基隆[經深坑、政大 ]",
+        "HeadsignEn": "Taipei Zoo→National Freeway No.3→Keelung(Via Shenkeng、National Chengchi University)",
+        "Direction": 1,
+        "DepartureStopNameZh": "捷運動物園站",
+        "DepartureStopNameEn": "MRT Taipei Zoo Station",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1558",
+      "En": "1558"
+    },
+    "DepartureStopNameZh": "基隆轉運站",
+    "DepartureStopNameEn": "Keelung Transit Station",
+    "DestinationStopNameZh": "捷運動物園站",
+    "DestinationStopNameEn": "MRT Taipei Zoo Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1558.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1570",
+    "RouteID": "1570",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "39",
+        "OperatorName": {
+          "Zh_tw": "首都客運",
+          "En": "Capital Bus Co., Ltd."
+        },
+        "OperatorCode": "CapitalBus",
+        "OperatorNo": "0913"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB157001",
+        "SubRouteID": "157001",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1570",
+          "En": "1570"
+        },
+        "Headsign": "羅東鎮→國道5號高速公路→臺北市信義區",
+        "HeadsignEn": "Luodong Township→National Freeway No. 5→Xinyi Dist. Taipei City",
+        "Direction": 0,
+        "DepartureStopNameZh": "羅東轉運站",
+        "DepartureStopNameEn": "Luodong Bus Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION"
+      },
+      {
+        "SubRouteUID": "THB157002",
+        "SubRouteID": "157002",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1570",
+          "En": "1570"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→羅東鎮",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Luodong Township",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "羅東轉運站",
+        "DestinationStopNameEn": "Luodong Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1570A2",
+        "SubRouteID": "1570A2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1570A",
+          "En": "1570A"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→羅東鎮[假日路線]",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Luodong Township(Holiday Line)",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "羅東轉運站",
+        "DestinationStopNameEn": "Luodong Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1570",
+      "En": "1570"
+    },
+    "DepartureStopNameZh": "羅東轉運站",
+    "DepartureStopNameEn": "Luodong Bus Station",
+    "DestinationStopNameZh": "市府轉運站",
+    "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1570.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1571",
+    "RouteID": "1571",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "39",
+        "OperatorName": {
+          "Zh_tw": "首都客運",
+          "En": "Capital Bus Co., Ltd."
+        },
+        "OperatorCode": "CapitalBus",
+        "OperatorNo": "0913"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB157101",
+        "SubRouteID": "157101",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1571",
+          "En": "1571"
+        },
+        "Headsign": "宜蘭市→國道5號高速公路→臺北市信義區",
+        "HeadsignEn": "Yilan City→National Freeway No. 5→Xinyi Dist. Taipei City",
+        "Direction": 0,
+        "DepartureStopNameZh": "宜蘭轉運站",
+        "DepartureStopNameEn": "Yilan Transfer Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION"
+      },
+      {
+        "SubRouteUID": "THB157102",
+        "SubRouteID": "157102",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1571",
+          "En": "1571"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→宜蘭市",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Yilan City",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "宜蘭轉運站",
+        "DestinationStopNameEn": "Yilan Transfer Station"
+      },
+      {
+        "SubRouteUID": "THB1571A1",
+        "SubRouteID": "1571A1",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1571A",
+          "En": "1571A"
+        },
+        "Headsign": "宜蘭市→國道5號高速公路→臺北市信義區[假日路線]",
+        "HeadsignEn": "Yilan City→National Freeway No. 5→Xinyi Dist. Taipei City(Holiday Line)",
+        "Direction": 0,
+        "DepartureStopNameZh": "宜蘭轉運站",
+        "DepartureStopNameEn": "Yilan Transfer Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION"
+      },
+      {
+        "SubRouteUID": "THB1571A2",
+        "SubRouteID": "1571A2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1571A",
+          "En": "1571A"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→宜蘭市[假日路線]",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Yilan City(Holiday Line)",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "宜蘭轉運站",
+        "DestinationStopNameEn": "Yilan Transfer Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1571",
+      "En": "1571"
+    },
+    "DepartureStopNameZh": "宜蘭轉運站",
+    "DepartureStopNameEn": "Yilan Transfer Station",
+    "DestinationStopNameZh": "市府轉運站",
+    "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1571.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1572",
+    "RouteID": "1572",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "39",
+        "OperatorName": {
+          "Zh_tw": "首都客運",
+          "En": "Capital Bus Co., Ltd."
+        },
+        "OperatorCode": "CapitalBus",
+        "OperatorNo": "0913"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB157201",
+        "SubRouteID": "157201",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572",
+          "En": "1572"
+        },
+        "Headsign": "羅東鎮→宜蘭市→礁溪鄉→國道5號高速公路→臺北市信義區",
+        "HeadsignEn": "Luodong Township→Yilan City→Jiaoxi Township→National Freeway No. 5→Xinyi Dist. Taipei City",
+        "Direction": 0,
+        "DepartureStopNameZh": "羅東轉運站",
+        "DepartureStopNameEn": "Luodong Bus Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION"
+      },
+      {
+        "SubRouteUID": "THB157202",
+        "SubRouteID": "157202",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572",
+          "En": "1572"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→礁溪鄉→宜蘭市→羅東鎮",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Jiaoxi Township→Yilan City→Luodong Township",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "羅東轉運站",
+        "DestinationStopNameEn": "Luodong Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1572A2",
+        "SubRouteID": "1572A2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572A",
+          "En": "1572A"
+        },
+        "Headsign": "臺北市信義區→國道5號高速公路→礁溪鄉→宜蘭市→羅東鎮[假日路線]",
+        "HeadsignEn": "Xinyi Dist. Taipei City→National Freeway No. 5→Jiaoxi Township→Yilan City→Luodong Township(Holiday Line)",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "羅東轉運站",
+        "DestinationStopNameEn": "Luodong Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1572B1",
+        "SubRouteID": "1572B1",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572B",
+          "En": "1572B"
+        },
+        "Headsign": "礁溪鄉→臺北市信義區",
+        "HeadsignEn": "Jiaoxi Township→Xinyi Dist. Taipei City",
+        "Direction": 0,
+        "DepartureStopNameZh": "礁溪轉運站",
+        "DepartureStopNameEn": "Jiaosi Transfer Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION"
+      },
+      {
+        "SubRouteUID": "THB1572B2",
+        "SubRouteID": "1572B2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572B",
+          "En": "1572B"
+        },
+        "Headsign": "臺北市信義區→礁溪鄉",
+        "HeadsignEn": "Xinyi Dist. Taipei City→Jiaoxi Township",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "礁溪轉運站",
+        "DestinationStopNameEn": "Jiaosi Transfer Station"
+      },
+      {
+        "SubRouteUID": "THB1572C2",
+        "SubRouteID": "1572C2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1572C",
+          "En": "1572C"
+        },
+        "Headsign": "臺北市信義區→礁溪鄉[假日路線]",
+        "HeadsignEn": "Xinyi Dist. Taipei City→Jiaoxi Township(Holiday Line)",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "礁溪轉運站",
+        "DestinationStopNameEn": "Jiaosi Transfer Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1572",
+      "En": "1572"
+    },
+    "DepartureStopNameZh": "羅東轉運站",
+    "DepartureStopNameEn": "Luodong Bus Station",
+    "DestinationStopNameZh": "市府轉運站",
+    "DestinationStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1572.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1573",
+    "RouteID": "1573",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "92",
+        "OperatorName": {
+          "Zh_tw": "日豪客運"
+        },
+        "OperatorCode": "",
+        "OperatorNo": "0413"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB157301",
+        "SubRouteID": "157301",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1573",
+          "En": "1573"
+        },
+        "Headsign": "基隆→國道1號→內湖科技園區",
+        "HeadsignEn": "Keelung→National Freeway No. 1→Neihu Technology Park",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "美麗華(植福)",
+        "DestinationStopNameEn": "Miramar (Zhifu)"
+      },
+      {
+        "SubRouteUID": "THB157302",
+        "SubRouteID": "157302",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1573",
+          "En": "1573"
+        },
+        "Headsign": "內湖科技園區→國道1號→基隆",
+        "HeadsignEn": "Neihu Technology Park→National Freeway No. 1→Keelung",
+        "Direction": 1,
+        "DepartureStopNameZh": "美麗華(植福)",
+        "DepartureStopNameEn": "Miramar (Zhifu)",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB1573A1",
+        "SubRouteID": "1573A1",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1573A",
+          "En": "1573A"
+        },
+        "Headsign": "基隆→國道1號→內湖科技園區[繞駛麗山高中]",
+        "HeadsignEn": "Keelung→National Freeway No. 1→Neihu Technology Park(VIA Lishan Senior High School)",
+        "Direction": 0,
+        "DepartureStopNameZh": "基隆轉運站",
+        "DepartureStopNameEn": "Keelung Transit Station",
+        "DestinationStopNameZh": "美麗華(植福)",
+        "DestinationStopNameEn": "Miramar (Zhifu)"
+      },
+      {
+        "SubRouteUID": "THB1573A2",
+        "SubRouteID": "1573A2",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1573A",
+          "En": "1573A"
+        },
+        "Headsign": "內湖科技園區→國道1號→基隆[繞駛麗山高中]",
+        "HeadsignEn": "Neihu Technology Park→National Freeway No. 1→Keelung(VIA Lishan Senior High School)",
+        "Direction": 1,
+        "DepartureStopNameZh": "美麗華(植福)",
+        "DepartureStopNameEn": "Miramar (Zhifu)",
+        "DestinationStopNameZh": "基隆轉運站",
+        "DestinationStopNameEn": "Keelung Transit Station"
+      },
+      {
+        "SubRouteUID": "THB1573B2",
+        "SubRouteID": "1573B2",
+        "OperatorIDs": [
+          "92"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1573B",
+          "En": "1573B"
+        },
+        "Headsign": "內湖科技園區—國道一號—基隆[港西街下客站]",
+        "HeadsignEn": "Neihu Technology Park→National Freeway No. 1→Keelung",
+        "Direction": 1,
+        "DepartureStopNameZh": "美麗華(植福)",
+        "DepartureStopNameEn": "Miramar (Zhifu)",
+        "DestinationStopNameZh": "港西街下客站",
+        "DestinationStopNameEn": "Gangxi Street Get Off"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1573",
+      "En": "1573"
+    },
+    "DepartureStopNameZh": "基隆轉運站",
+    "DepartureStopNameEn": "Keelung Transit Station",
+    "DestinationStopNameZh": "美麗華(植福)",
+    "DestinationStopNameEn": "Miramar (Zhifu)",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1573.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1579",
+    "RouteID": "1579",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "39",
+        "OperatorName": {
+          "Zh_tw": "首都客運",
+          "En": "Capital Bus Co., Ltd."
+        },
+        "OperatorCode": "CapitalBus",
+        "OperatorNo": "0913"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB157901",
+        "SubRouteID": "157901",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579",
+          "En": "1579"
+        },
+        "Headsign": "基隆市中正區→臺北市區",
+        "HeadsignEn": "Keelung City Zhongzheng District→Taipei City",
+        "Direction": 0,
+        "DepartureStopNameZh": "八斗子車站",
+        "DepartureStopNameEn": "Badouzi Station",
+        "DestinationStopNameZh": "圓山轉運站(玉門)",
+        "DestinationStopNameEn": "Yuanshan Bus Station(Yumen)"
+      },
+      {
+        "SubRouteUID": "THB157902",
+        "SubRouteID": "157902",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579",
+          "En": "1579"
+        },
+        "Headsign": "臺北市區→基隆市中正區",
+        "HeadsignEn": "Taipei City→Keelung City Zhongzheng District",
+        "Direction": 1,
+        "DepartureStopNameZh": "圓山轉運站(玉門)",
+        "DepartureStopNameEn": "Yuanshan Bus Station(Yumen)",
+        "DestinationStopNameZh": "八斗子車站",
+        "DestinationStopNameEn": "Badouzi Station"
+      },
+      {
+        "SubRouteUID": "THB1579A1",
+        "SubRouteID": "1579A1",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579A",
+          "En": "1579A"
+        },
+        "Headsign": "基隆市中正區→臺北市區(經中正路)",
+        "HeadsignEn": "Keelung City Zhongzheng District→Taipei City(Via Zhongzheng Rd.)",
+        "Direction": 0,
+        "DepartureStopNameZh": "八斗子車站",
+        "DepartureStopNameEn": "Badouzi Station",
+        "DestinationStopNameZh": "圓山轉運站(玉門)",
+        "DestinationStopNameEn": "Yuanshan Bus Station(Yumen)"
+      },
+      {
+        "SubRouteUID": "THB1579A2",
+        "SubRouteID": "1579A2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579A",
+          "En": "1579A"
+        },
+        "Headsign": "臺北市區→基隆市中正區(經中正路)",
+        "HeadsignEn": "Taipei City→Taipei City(Via Zhongzheng Rd.)",
+        "Direction": 1,
+        "DepartureStopNameZh": "圓山轉運站(玉門)",
+        "DepartureStopNameEn": "Yuanshan Bus Station(Yumen)",
+        "DestinationStopNameZh": "八斗子車站",
+        "DestinationStopNameEn": "Badouzi Station"
+      },
+      {
+        "SubRouteUID": "THB1579B1",
+        "SubRouteID": "1579B1",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579B",
+          "En": "1579B"
+        },
+        "Headsign": "基隆市中正區→松山高中(基隆路)",
+        "HeadsignEn": "Keelung City Zhongzheng District→Songshan High School(Keelung Rd.)",
+        "Direction": 0,
+        "DepartureStopNameZh": "八斗子車站",
+        "DepartureStopNameEn": "Badouzi Station",
+        "DestinationStopNameZh": "松山高中(基隆路)",
+        "DestinationStopNameEn": "Songshan High School(Keelung Rd.)"
+      },
+      {
+        "SubRouteUID": "THB1579B2",
+        "SubRouteID": "1579B2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579B",
+          "En": "1579B"
+        },
+        "Headsign": "市府轉運站→基隆市中正區",
+        "HeadsignEn": "Taipei City Hall Bus Station→Keelung City Zhongzheng District",
+        "Direction": 1,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "TAIPEI CITY HALL BUS  STATION",
+        "DestinationStopNameZh": "八斗子車站",
+        "DestinationStopNameEn": "Badouzi Station"
+      },
+      {
+        "SubRouteUID": "THB1579C1",
+        "SubRouteID": "1579C1",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579C",
+          "En": "1579C"
+        },
+        "Headsign": "基隆市中正區→捷運忠孝復興站(經中正路)",
+        "HeadsignEn": "Keelung City Zhongzheng District→Taipei City(Via Zhongzheng Rd.)",
+        "Direction": 0,
+        "DepartureStopNameZh": "八斗子車站",
+        "DepartureStopNameEn": "Badouzi Station",
+        "DestinationStopNameZh": "捷運忠孝復興站",
+        "DestinationStopNameEn": "MRT Zhongxiao Fuxing Sta."
+      },
+      {
+        "SubRouteUID": "THB1579C2",
+        "SubRouteID": "1579C2",
+        "OperatorIDs": [
+          "39"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1579C",
+          "En": "1579C"
+        },
+        "Headsign": "懷生國中→基隆市中正區(經中正路)",
+        "HeadsignEn": "Taipei City→Taipei City(Via Zhongzheng Rd.)",
+        "Direction": 1,
+        "DepartureStopNameZh": "懷生國中",
+        "DepartureStopNameEn": "Huaisheng Junior High School",
+        "DestinationStopNameZh": "八斗子車站",
+        "DestinationStopNameEn": "Badouzi Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1579",
+      "En": "1579"
+    },
+    "DepartureStopNameZh": "八斗子車站",
+    "DepartureStopNameEn": "Badouzi Station",
+    "DestinationStopNameZh": "圓山轉運站(玉門)",
+    "DestinationStopNameEn": "Yuanshan Bus Station(Yumen)",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1579.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1610",
+    "RouteID": "1610",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161001",
+        "SubRouteID": "161001",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610",
+          "En": "1610"
+        },
+        "Headsign": "臺北→高雄[經環北交流道]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Huanbei Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB161002",
+        "SubRouteID": "161002",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610",
+          "En": "1610"
+        },
+        "Headsign": "高雄→臺北[經臺北交流道]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Taipei Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610A1",
+        "SubRouteID": "1610A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610A",
+          "En": "1610A"
+        },
+        "Headsign": "臺北→高雄[經三重交流道]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Sanchong Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610A2",
+        "SubRouteID": "1610A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610A",
+          "En": "1610A"
+        },
+        "Headsign": "高雄→臺北[經三重交流道]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Sanchong Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610B1",
+        "SubRouteID": "1610B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610B",
+          "En": "1610B"
+        },
+        "Headsign": "臺北→高雄[經三重交流道，不停經國轉運站、岡山站]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Huanbei Interchange、Not Via Nankan Station、Gangshan Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610B2",
+        "SubRouteID": "1610B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610B",
+          "En": "1610B"
+        },
+        "Headsign": "高雄→臺北[經三重交流道，不停岡山站、經國轉運站]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Huanbei Interchange、Not Via Gangshan Station、Nankan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610C1",
+        "SubRouteID": "1610C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610C",
+          "En": "1610C"
+        },
+        "Headsign": "臺北→高雄[經三重交流道，不停經國轉運站、中港轉運站、岡山站]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Huanbei Interchange、Not Via Nankan Station、Zhonggang Bus Station、Gangshan Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610C2",
+        "SubRouteID": "1610C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610C",
+          "En": "1610C"
+        },
+        "Headsign": "高雄→臺北[經三重交流道，不停岡山站、中港轉運站、經國轉運站]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Huanbei Interchange、Not Via Gangshan Station、Zhonggang Bus Station、Nankan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610D1",
+        "SubRouteID": "1610D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610D",
+          "En": "1610D"
+        },
+        "Headsign": "臺北→高雄[經三重交流道，不停經國轉運站、中港轉運站、岡山站、楠梓站]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Huanbei Interchange、Not Via Nankan Station、Zhonggang Bus Station、Gangshan Station、Nanzi Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610D2",
+        "SubRouteID": "1610D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610D",
+          "En": "1610D"
+        },
+        "Headsign": "高雄→臺北[經三重交流道，不停楠梓站、岡山站、中港轉運站、經國轉運站]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Huanbei Interchange、Not Via Nanzi Station、Gangshan Station、Zhonggang Bus Station、Nankan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610E2",
+        "SubRouteID": "1610E2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610E",
+          "En": "1610E"
+        },
+        "Headsign": "高雄→臺北[經三重交流道，不停岡山站]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Huanbei Interchange、Not Via Gangshan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1610F1",
+        "SubRouteID": "1610F1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610F",
+          "En": "1610F"
+        },
+        "Headsign": "臺北→高雄[經三重交流道，不停中港轉運站、岡山站]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Sanchong Interchange、Not Via Zhonggang Bus Station、Gangshan Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610G1",
+        "SubRouteID": "1610G1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610G",
+          "En": "1610G"
+        },
+        "Headsign": "臺北→高雄[經三重交流道，不停經國轉運站、岡山站、楠梓站]",
+        "HeadsignEn": "Taipei→Kaohsiung(Via Sanchong Interchange、Not Via Zhonggang Bus Station、Gangshan Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1610G2",
+        "SubRouteID": "1610G2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1610G",
+          "En": "1610G"
+        },
+        "Headsign": "高雄→臺北[經三重交流道，不停楠梓站、岡山站、經國轉運站]",
+        "HeadsignEn": "Kaohsiung→Taipei(Via Taipei Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1610",
+      "En": "1610"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "建國客運站",
+    "DestinationStopNameEn": "TRA Kaohsiung Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1610.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1611",
+    "RouteID": "1611",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161101",
+        "SubRouteID": "161101",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611",
+          "En": "1611"
+        },
+        "Headsign": "臺北→臺南[經環北交流道]",
+        "HeadsignEn": "Taipei→Tainan(Via Huanbei Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB161102",
+        "SubRouteID": "161102",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611",
+          "En": "1611"
+        },
+        "Headsign": "臺南→臺北[經臺北交流道]",
+        "HeadsignEn": "Tainan→Taipei(Via Taipei Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611A1",
+        "SubRouteID": "1611A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611A",
+          "En": "1611A"
+        },
+        "Headsign": "臺北→臺南[經三重交流道]",
+        "HeadsignEn": "Taipei→Tainan(Via Sanchong Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611A2",
+        "SubRouteID": "1611A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611A",
+          "En": "1611A"
+        },
+        "Headsign": "臺南→臺北[經三重交流道]",
+        "HeadsignEn": "Tainan→Taipei(Via Sanchong Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611C1",
+        "SubRouteID": "1611C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611C",
+          "En": "1611C"
+        },
+        "Headsign": "臺北→臺南[經三重交流道、不停經國轉運站、中港轉運站、新營站]",
+        "HeadsignEn": "Taipei→Tainan(Via Sanchong Interchange、no stops Nankan、Zhonggang Bus Station、Xinying)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611C2",
+        "SubRouteID": "1611C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611C",
+          "En": "1611C"
+        },
+        "Headsign": "臺南→臺北[經三重交流道、不停新營站、中港轉運站、經國轉運站]",
+        "HeadsignEn": "Tainan→Taipei(Via Sanchong Interchange、no stops Xinying、Zhonggang Bus Station、Nankan)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611D1",
+        "SubRouteID": "1611D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611D",
+          "En": "1611D"
+        },
+        "Headsign": "臺北→臺南[經三重交流道、不停經國轉運站、中港轉運站]",
+        "HeadsignEn": "Taipei→Tainan(Via Sanchong Interchange、no stops Nankan、Zhonggang Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611D2",
+        "SubRouteID": "1611D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611D",
+          "En": "1611D"
+        },
+        "Headsign": "臺南→臺北[經三重交流道，不停中港轉運站、經國轉運站]",
+        "HeadsignEn": "Tainan→Taipei(Via Sanchong Interchange、no stops Zhonggang Bus Station、Nankan)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611E2",
+        "SubRouteID": "1611E2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611E",
+          "En": "1611E"
+        },
+        "Headsign": "臺南→臺北[經三重交流道、不停新營站、經國轉運站]",
+        "HeadsignEn": "Tainan→Taipei(Via Sanchong Interchange、no stops Xinying、Nankan)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611F1",
+        "SubRouteID": "1611F1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611F",
+          "En": "1611F"
+        },
+        "Headsign": "臺北→臺南[經三重交流道，不停中港轉運站]",
+        "HeadsignEn": "Taipei→Tainan(Via Sanchong Interchange、Not Via Zhonggang Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1611F2",
+        "SubRouteID": "1611F2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1611F",
+          "En": "1611F"
+        },
+        "Headsign": "臺南→臺北[經三重交流道，不停中港轉運站]",
+        "HeadsignEn": "Tainan→Taipei(Via Sanchong Interchange、Not Via Zhonggang Bus Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1611",
+      "En": "1611"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "臺南轉運站",
+    "DestinationStopNameEn": "Tainan Bus Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1611.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1612",
+    "RouteID": "1612",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161201",
+        "SubRouteID": "161201",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612",
+          "En": "1612"
+        },
+        "Headsign": "臺北→國道3號→臺南[經安坑交流道]",
+        "HeadsignEn": "Taipei→National Freeway No. 3→Tainan(Via Ankeng Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "Taipei City Hall Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB161202",
+        "SubRouteID": "161202",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612",
+          "En": "1612"
+        },
+        "Headsign": "臺南→國道3號→臺北[經安坑交流道]",
+        "HeadsignEn": "Tainan→National Freeway No. 3→Taipei(Via Ankeng Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "Taipei City Hall Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612A1",
+        "SubRouteID": "1612A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612A",
+          "En": "1612A"
+        },
+        "Headsign": "臺北→國道3號→臺南[經萬芳交流道]",
+        "HeadsignEn": "Taipei→National Freeway No. 3→Tainan(Via Wanfang Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "Taipei City Hall Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612A2",
+        "SubRouteID": "1612A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612A",
+          "En": "1612A"
+        },
+        "Headsign": "臺南→國道3號→臺北[經萬芳交流道]",
+        "HeadsignEn": "Tainan→National Freeway No. 3→Taipei(Via Wanfang Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "Taipei City Hall Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612B1",
+        "SubRouteID": "1612B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612B",
+          "En": "1612B"
+        },
+        "Headsign": "臺北→國道3號→臺南[經安坑交流道，不停三峽站、嘉義交流道]",
+        "HeadsignEn": "Taipei→National Freeway No. 3→Tainan(Via Ankeng Interchange、Not Via Sansia Station、Chiayi Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "Taipei City Hall Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612C1",
+        "SubRouteID": "1612C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612C",
+          "En": "1612C"
+        },
+        "Headsign": "臺北→國道3號→臺南[經安坑交流道，景美至臺南班次、不停嘉義交流道]",
+        "HeadsignEn": "Taipei→National Freeway No. 3→Tainan(Via Ankeng Interchange、 Jingmei To Tainan Not Via Chiayi Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "統聯景美站",
+        "DepartureStopNameEn": "Ubus Jingmei Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612D1",
+        "SubRouteID": "1612D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612D",
+          "En": "1612D"
+        },
+        "Headsign": "臺北→國道3號→臺南[經安坑交流道，不停嘉義交流道]",
+        "HeadsignEn": "Taipei→National Freeway No. 3→Tainan(Via Ankeng Interchange，Not Via Chiayi Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "市府轉運站",
+        "DepartureStopNameEn": "Taipei City Hall Bus Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1612D2",
+        "SubRouteID": "1612D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1612D",
+          "En": "1612D"
+        },
+        "Headsign": "臺南→國道3號→臺北[經安坑交流道，不停嘉義交流道]",
+        "HeadsignEn": "Tainan→National Freeway No. 3→Taipei(Via Ankeng Interchange，Not Via Chiayi Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "市府轉運站",
+        "DestinationStopNameEn": "Taipei City Hall Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1612",
+      "En": "1612"
+    },
+    "DepartureStopNameZh": "市府轉運站",
+    "DepartureStopNameEn": "Taipei City Hall Bus Station",
+    "DestinationStopNameZh": "臺南轉運站",
+    "DestinationStopNameEn": "Tainan Bus Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1612.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1613",
+    "RouteID": "1613",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161301",
+        "SubRouteID": "161301",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613",
+          "En": "1613"
+        },
+        "Headsign": "台北→屏東[經環北交流道]",
+        "HeadsignEn": "Taipei→Pingtung(Via Huanbei Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "屏東轉運站",
+        "DestinationStopNameEn": "Pingtung Bus Station"
+      },
+      {
+        "SubRouteUID": "THB161302",
+        "SubRouteID": "161302",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613",
+          "En": "1613"
+        },
+        "Headsign": "屏東→台北[經臺北交流道]",
+        "HeadsignEn": "Pingtung→Taipei(Via Taipei Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "屏東轉運站",
+        "DepartureStopNameEn": "Pingtung Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1613A1",
+        "SubRouteID": "1613A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613A",
+          "En": "1613A"
+        },
+        "Headsign": "台北→屏東[經三重交流道]",
+        "HeadsignEn": "Taipei→Pingtung(Via Sanchong Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "屏東轉運站",
+        "DestinationStopNameEn": "Pingtung Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1613A2",
+        "SubRouteID": "1613A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613A",
+          "En": "1613A"
+        },
+        "Headsign": "屏東→台北[經三重交流道]",
+        "HeadsignEn": "Pingtung→Taipei(Via Sanchong Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "屏東轉運站",
+        "DepartureStopNameEn": "Pingtung Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1613B1",
+        "SubRouteID": "1613B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613B",
+          "En": "1613B"
+        },
+        "Headsign": "台北→屏東[經三重交流道，不停仁德]",
+        "HeadsignEn": "Taipei→Pingtung(Via Sanchong Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "屏東轉運站",
+        "DestinationStopNameEn": "Pingtung Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1613B2",
+        "SubRouteID": "1613B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1613B",
+          "En": "1613B"
+        },
+        "Headsign": "屏東→台北[經三重交流道，不停仁德]",
+        "HeadsignEn": "Pingtung→Taipei(Via Sanchong Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "屏東轉運站",
+        "DepartureStopNameEn": "Pingtung Bus Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1613",
+      "En": "1613"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "屏東轉運站",
+    "DestinationStopNameEn": "Pingtung Bus Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1613.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1617",
+    "RouteID": "1617",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161701",
+        "SubRouteID": "161701",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617",
+          "En": "1617"
+        },
+        "Headsign": "台北→豐原→東勢",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "東勢站",
+        "DestinationStopNameEn": "Dongshi Station"
+      },
+      {
+        "SubRouteUID": "THB161702",
+        "SubRouteID": "161702",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617",
+          "En": "1617"
+        },
+        "Headsign": "東勢→豐原→台北",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "東勢站",
+        "DepartureStopNameEn": "Dongshi Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1617A1",
+        "SubRouteID": "1617A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617A",
+          "En": "1617A"
+        },
+        "Headsign": "台北→豐原→東勢[不停林口站、麗寶樂園(月眉)站]",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi(Not Via Linkou Station、Lihpao Land[Yamay] Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "東勢站",
+        "DestinationStopNameEn": "Dongshi Station"
+      },
+      {
+        "SubRouteUID": "THB1617A2",
+        "SubRouteID": "1617A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617A",
+          "En": "1617A"
+        },
+        "Headsign": "東勢→豐原→台北[不停麗寶樂園(月眉)站、林口站]",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei(Not Via Lihpao Land[Yamay]、Linkou Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "東勢站",
+        "DepartureStopNameEn": "Dongshi Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1617B1",
+        "SubRouteID": "1617B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617B",
+          "En": "1617B"
+        },
+        "Headsign": "台北→豐原→東勢[臺北至豐原班次，不停林口站、麗寶樂園(月眉)站]",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi(Taipei To Fengyuan Not Via Linkou Station、Lihpao Land[Yamay] Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "豐原轉運中心",
+        "DestinationStopNameEn": "Fengyuan Trsnsfer Station"
+      },
+      {
+        "SubRouteUID": "THB1617B2",
+        "SubRouteID": "1617B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617B",
+          "En": "1617B"
+        },
+        "Headsign": "東勢→豐原→台北[豐原至臺北班次，不停麗寶樂園(月眉)站、林口站]",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei(Fengyuan To Taipei Not Via Lihpao Land[Yamay]、Linkou Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "豐原轉運中心",
+        "DepartureStopNameEn": "Fengyuan Trsnsfer Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1617C1",
+        "SubRouteID": "1617C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617C",
+          "En": "1617C"
+        },
+        "Headsign": "台北→豐原→東勢[不停麗寶樂園(月眉)站]",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi(Not Via Lihpao Land[Yamay] Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "東勢站",
+        "DestinationStopNameEn": "Dongshi Station"
+      },
+      {
+        "SubRouteUID": "THB1617C2",
+        "SubRouteID": "1617C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617C",
+          "En": "1617C"
+        },
+        "Headsign": "東勢→豐原→台北[不停麗寶樂園(月眉)站]",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei(Not Via Lihpao Land[Yamay])",
+        "Direction": 1,
+        "DepartureStopNameZh": "東勢站",
+        "DepartureStopNameEn": "Dongshi Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1617D1",
+        "SubRouteID": "1617D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617D",
+          "En": "1617D"
+        },
+        "Headsign": "台北→豐原→東勢[經三義，不停麗寶樂園(月眉)站]",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi(Via Sanyi,Not Via Lihpao Land[Yamay])",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "東勢站",
+        "DestinationStopNameEn": "Dongshi Station"
+      },
+      {
+        "SubRouteUID": "THB1617D2",
+        "SubRouteID": "1617D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617D",
+          "En": "1617D"
+        },
+        "Headsign": "東勢→豐原→台北[經三義，不停麗寶樂園(月眉)站]",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei(Via Sanyi,Not Via Lihpao Land[Yamay])",
+        "Direction": 1,
+        "DepartureStopNameZh": "東勢站",
+        "DepartureStopNameEn": "Dongshi Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1617E1",
+        "SubRouteID": "1617E1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617E",
+          "En": "1617E"
+        },
+        "Headsign": "台北→豐原→東勢[經三義，臺北至豐原班次，不停林口站、麗寶樂園(月眉)站]",
+        "HeadsignEn": "Taipei→Fengyuan→Dongshi(Via Sanyi,Taipei To Fengyuan Not Via Linkou Station、Lihpao Land[Yamay] Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "豐原轉運中心",
+        "DestinationStopNameEn": "Fengyuan Trsnsfer Station"
+      },
+      {
+        "SubRouteUID": "THB1617E2",
+        "SubRouteID": "1617E2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1617E",
+          "En": "1617E"
+        },
+        "Headsign": "東勢→豐原→台北[經三義，豐原至臺北班次，不停麗寶樂園(月眉)站、林口站]",
+        "HeadsignEn": "Dongshi→Fengyuan→Taipei(Via Sanyi,Fengyuan To Taipei Not Via Lihpao Land[Yamay]、Linkou Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "豐原轉運中心",
+        "DepartureStopNameEn": "Fengyuan Trsnsfer Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1617",
+      "En": "1617"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "東勢站",
+    "DestinationStopNameEn": "Dongshi Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1617.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1618",
+    "RouteID": "1618",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161801",
+        "SubRouteID": "161801",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618",
+          "En": "1618"
+        },
+        "Headsign": "台北→嘉義",
+        "HeadsignEn": "Taipei→Chiayi",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "嘉義市轉運中心",
+        "DestinationStopNameEn": "Transit Center of Chiayi City"
+      },
+      {
+        "SubRouteUID": "THB161802",
+        "SubRouteID": "161802",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618",
+          "En": "1618"
+        },
+        "Headsign": "嘉義→台北",
+        "HeadsignEn": "Chiayi→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "嘉義市轉運中心",
+        "DepartureStopNameEn": "Transit Center of Chiayi City",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1618A1",
+        "SubRouteID": "1618A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618A",
+          "En": "1618A"
+        },
+        "Headsign": "台北→嘉義[不停林口、中港轉運站]",
+        "HeadsignEn": "Taipei→Chiayi(no stops Linkou、Zhonggang Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "嘉義市轉運中心",
+        "DestinationStopNameEn": "Transit Center of Chiayi City"
+      },
+      {
+        "SubRouteUID": "THB1618A2",
+        "SubRouteID": "1618A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618A",
+          "En": "1618A"
+        },
+        "Headsign": "嘉義→台北[不停中港轉運站、林口、重陽站]",
+        "HeadsignEn": "Chiayi→Taipei(no stops Zhonggang Bus Station、Linkou、 Zhongyang)",
+        "Direction": 1,
+        "DepartureStopNameZh": "嘉義市轉運中心",
+        "DepartureStopNameEn": "Transit Center of Chiayi City",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1618B1",
+        "SubRouteID": "1618B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618B",
+          "En": "1618B"
+        },
+        "Headsign": "台北→嘉義[直達車，不停林口、中港轉運站、大林站]",
+        "HeadsignEn": "Taipei→Chiayi(no stops Linkou、Zhonggang Bus Station、Dalin)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "嘉義市轉運中心",
+        "DestinationStopNameEn": "Transit Center of Chiayi City"
+      },
+      {
+        "SubRouteUID": "THB1618C2",
+        "SubRouteID": "1618C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618C",
+          "En": "1618C"
+        },
+        "Headsign": "嘉義→台北[不停大林站]",
+        "HeadsignEn": "Chiayi→Taipei(no stops Dalin)",
+        "Direction": 1,
+        "DepartureStopNameZh": "嘉義市轉運中心",
+        "DepartureStopNameEn": "Transit Center of Chiayi City",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1618D1",
+        "SubRouteID": "1618D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618D",
+          "En": "1618D"
+        },
+        "Headsign": "台北→嘉義[不停林口站]",
+        "HeadsignEn": "Taipei→Chiayi(no stops Linkou Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "嘉義市轉運中心",
+        "DestinationStopNameEn": "Transit Center of Chiayi City"
+      },
+      {
+        "SubRouteUID": "THB1618E2",
+        "SubRouteID": "1618E2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618E",
+          "En": "1618E"
+        },
+        "Headsign": "嘉義→台北[直達車，不停大林站、中港轉運站、林口、重陽站]",
+        "HeadsignEn": "ChiayiTaipei→Taipei(no stops Dalin、Zhonggang Bus Station、Linkou、Chongyang)",
+        "Direction": 1,
+        "DepartureStopNameZh": "嘉義市轉運中心",
+        "DepartureStopNameEn": "Transit Center of Chiayi City",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1618F1",
+        "SubRouteID": "1618F1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618F",
+          "En": "1618F"
+        },
+        "Headsign": "台北→嘉義(不停中港轉運站)",
+        "HeadsignEn": "Taipei→Chiayi (no stops Zhonggang Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "嘉義市轉運中心",
+        "DestinationStopNameEn": "Transit Center of Chiayi City"
+      },
+      {
+        "SubRouteUID": "THB1618F2",
+        "SubRouteID": "1618F2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1618F",
+          "En": "1618F"
+        },
+        "Headsign": "嘉義→台北(不停中港轉運站)",
+        "HeadsignEn": "Chiayi→Taipei (no stops Zhonggang Bus Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "嘉義市轉運中心",
+        "DepartureStopNameEn": "Transit Center of Chiayi City",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1618",
+      "En": "1618"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "嘉義市轉運中心",
+    "DestinationStopNameEn": "Transit Center of Chiayi City",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1618.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1619",
+    "RouteID": "1619",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB161901",
+        "SubRouteID": "161901",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619",
+          "En": "1619"
+        },
+        "Headsign": "臺北→臺灣大道→臺中",
+        "HeadsignEn": "Taipei→Taiwan Boulevard→Taichung",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB161902",
+        "SubRouteID": "161902",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619",
+          "En": "1619"
+        },
+        "Headsign": "臺中→臺灣大道→臺北",
+        "HeadsignEn": "Taichung→Taiwan Boulevard→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1619A1",
+        "SubRouteID": "1619A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619A",
+          "En": "1619A"
+        },
+        "Headsign": "臺北→臺灣大道→臺中[臺北至朝馬班次、不停科技生活館]",
+        "HeadsignEn": "Taipei→Taiwan Boulevard→Taichung(Taipei→Zhaoma、no stops Science Park Life Hub)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "朝馬站",
+        "DestinationStopNameEn": "Chaoma Station"
+      },
+      {
+        "SubRouteUID": "THB1619A2",
+        "SubRouteID": "1619A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619A",
+          "En": "1619A"
+        },
+        "Headsign": "臺中→臺灣大道→臺北[朝馬至臺北班次、不停科技生活館]",
+        "HeadsignEn": "Taichung→Taiwan Boulevard→Taipei(Zhaoma→Taipei、no stops Science Park Life Hub)",
+        "Direction": 1,
+        "DepartureStopNameZh": "朝馬站",
+        "DepartureStopNameEn": "Chaoma Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1619B1",
+        "SubRouteID": "1619B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619B",
+          "En": "1619B"
+        },
+        "Headsign": "臺北→臺灣大道→臺中[不停科技生活館]",
+        "HeadsignEn": "Taipei→Taiwan Boulevard→Taichung(Not Via Science Park Life Hub)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1619B2",
+        "SubRouteID": "1619B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1619B",
+          "En": "1619B"
+        },
+        "Headsign": "臺中→臺灣大道→臺北[不停科技生活館]",
+        "HeadsignEn": "Taichung→Taiwan Boulevard→Taipei(Not Via Science Park Life Hub)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1619",
+      "En": "1619"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "國軍英雄館",
+    "DestinationStopNameEn": "Taichung HERO HOUSE",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1619.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1620",
+    "RouteID": "1620",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162001",
+        "SubRouteID": "162001",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620",
+          "En": "1620"
+        },
+        "Headsign": "台北→中清路→台中",
+        "HeadsignEn": "Taipei→Zhongqing Rd.→Taichung",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB162002",
+        "SubRouteID": "162002",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620",
+          "En": "1620"
+        },
+        "Headsign": "台中→中清路→台北",
+        "HeadsignEn": "Taichung→Zhongqing Rd.→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1620A1",
+        "SubRouteID": "1620A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620A",
+          "En": "1620A"
+        },
+        "Headsign": "台北→中清路→台中[不停陽明交大光復路]",
+        "HeadsignEn": "Taipei→Zhongqing Rd.→Taichung(Not Via NYCU Guangfu Road)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1620A2",
+        "SubRouteID": "1620A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620A",
+          "En": "1620A"
+        },
+        "Headsign": "台中→中清路→台北[不停陽明交大光復路]",
+        "HeadsignEn": "Taichung→Zhongqing Rd.→Taipei(Not Via NYCU Guangfu Road)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1620B1",
+        "SubRouteID": "1620B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620B",
+          "En": "1620B"
+        },
+        "Headsign": "台北→中清路→台中[不停林口站、陽明交大光復路]",
+        "HeadsignEn": "Taipei→Zhongqing Rd.→Taichung(Not Via Linkou Station and NYCU Guangfu Road)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1620B2",
+        "SubRouteID": "1620B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1620B",
+          "En": "1620B"
+        },
+        "Headsign": "台中→中清路→台北[不停林口站、陽明交大光復路]",
+        "HeadsignEn": "Taichung→Zhongqing Rd.→Taipei(Not Via Linkou Station and NYCU Guangfu Road)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1620",
+      "En": "1620"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "國軍英雄館",
+    "DestinationStopNameEn": "Taichung HERO HOUSE",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1620.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1621",
+    "RouteID": "1621",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162101",
+        "SubRouteID": "162101",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621",
+          "En": "1621"
+        },
+        "Headsign": "台中→烏日→高雄",
+        "HeadsignEn": "Taichung→Wuri→Kaohsiung",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB162102",
+        "SubRouteID": "162102",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621",
+          "En": "1621"
+        },
+        "Headsign": "高雄→烏日→台中",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺中車站(大智北路)",
+        "DestinationStopNameEn": "Taichung Station(Dazhi North Road)"
+      },
+      {
+        "SubRouteUID": "THB1621A1",
+        "SubRouteID": "1621A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621A",
+          "En": "1621A"
+        },
+        "Headsign": "台中→烏日→高雄[不停彰化交流道站、岡山站、楠梓站]",
+        "HeadsignEn": "Taichung→Wuri→Kaohsiung(Not Via Changhua IC.、Gangshan Station、Nanzi Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1621A2",
+        "SubRouteID": "1621A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621A",
+          "En": "1621A"
+        },
+        "Headsign": "高雄→烏日→台中[不停楠梓站、岡山站、彰化交流道站]",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung(Not Via Nanzi Station、Gangshan Station、Changhua IC.)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺中車站(大智北路)",
+        "DestinationStopNameEn": "Taichung Station(Dazhi North Road)"
+      },
+      {
+        "SubRouteUID": "THB1621B1",
+        "SubRouteID": "1621B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621B",
+          "En": "1621B"
+        },
+        "Headsign": "台中→烏日→高雄[烏日客運南站至高雄班次]",
+        "HeadsignEn": "Taichung→Wuri→Kaohsiung(Wuri South Passenger Transport Station To Kaohsiung)",
+        "Direction": 0,
+        "DepartureStopNameZh": "烏日客運南站",
+        "DepartureStopNameEn": "Wuri South Passenger Transport Station",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1621B2",
+        "SubRouteID": "1621B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621B",
+          "En": "1621B"
+        },
+        "Headsign": "高雄→烏日→台中[高雄至烏日客運南站班次]",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung(Kaohsiung To Wuri South Passenger Transport Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "烏日客運南站",
+        "DestinationStopNameEn": "Wuri South Passenger Transport Station"
+      },
+      {
+        "SubRouteUID": "THB1621C1",
+        "SubRouteID": "1621C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621C",
+          "En": "1621C"
+        },
+        "Headsign": "台中→烏日→高雄[不停岡山站、楠梓站]",
+        "HeadsignEn": "Taichung→Wuri→Kaohsiung(Not Via Gangshan Station、Nanzi Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1621C2",
+        "SubRouteID": "1621C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621C",
+          "En": "1621C"
+        },
+        "Headsign": "高雄→烏日→台中[不停楠梓站、岡山站]",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung(Not Via Nanzi Station、Gangshan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺中車站(大智北路)",
+        "DestinationStopNameEn": "Taichung Station(Dazhi North Road)"
+      },
+      {
+        "SubRouteUID": "THB1621D1",
+        "SubRouteID": "1621D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621D",
+          "En": "1621D"
+        },
+        "Headsign": "台中→烏日→高雄[不停彰化交流道站、岡山站]",
+        "HeadsignEn": "Taichung→Wuri→Kaohsiung(Not Via Changhua IC.、Gangshan Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "建國客運站",
+        "DestinationStopNameEn": "TRA Kaohsiung Station"
+      },
+      {
+        "SubRouteUID": "THB1621D2",
+        "SubRouteID": "1621D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621D",
+          "En": "1621D"
+        },
+        "Headsign": "高雄→烏日→台中[不停岡山站、彰化交流道站]",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung(Not Via Gangshan Station、Changhua IC.)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺中車站(大智北路)",
+        "DestinationStopNameEn": "Taichung Station(Dazhi North Road)"
+      },
+      {
+        "SubRouteUID": "THB1621E2",
+        "SubRouteID": "1621E2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1621E",
+          "En": "1621E"
+        },
+        "Headsign": "高雄→烏日→台中[不停岡山站]",
+        "HeadsignEn": "Kaohsiung→Wuri→Taichung(Not Via Gangshan Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "建國客運站",
+        "DepartureStopNameEn": "Jianguo Station",
+        "DestinationStopNameZh": "臺中車站(大智北路)",
+        "DestinationStopNameEn": "Taichung Station(Dazhi North Road)"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1621",
+      "En": "1621"
+    },
+    "DepartureStopNameZh": "臺中車站(大智北路)",
+    "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+    "DestinationStopNameZh": "建國客運站",
+    "DestinationStopNameEn": "TRA Kaohsiung Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1621.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1623",
+    "RouteID": "1623",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162301",
+        "SubRouteID": "162301",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1623",
+          "En": "1623"
+        },
+        "Headsign": "臺中市→國道1號→臺灣桃園國際機場",
+        "HeadsignEn": "Taichung City→National Freeway No. 1→Taiwan Taoyuan International Airport",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "桃園機場第一航廈",
+        "DestinationStopNameEn": "Taoyuan Airport  Terminal 1"
+      },
+      {
+        "SubRouteUID": "THB162302",
+        "SubRouteID": "162302",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1623",
+          "En": "1623"
+        },
+        "Headsign": "臺灣桃園國際機場→國道1號→臺中市",
+        "HeadsignEn": "Taiwan Taoyuan International Airport→National Freeway No. 1→Taichung City",
+        "Direction": 1,
+        "DepartureStopNameZh": "桃園機場第一航廈",
+        "DepartureStopNameEn": "Taoyuan Airport  Terminal 1",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1623A1",
+        "SubRouteID": "1623A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1623A",
+          "En": "1623A"
+        },
+        "Headsign": "臺中市→國道1號→臺灣桃園國際機場[朝馬至機場]",
+        "HeadsignEn": "Taichung City→National Freeway No. 1→Taiwan Taoyuan International Airport(Chaoma to Taoyuan Airport)",
+        "Direction": 0,
+        "DepartureStopNameZh": "朝馬站",
+        "DepartureStopNameEn": "Chaoma Station",
+        "DestinationStopNameZh": "桃園機場第一航廈",
+        "DestinationStopNameEn": "Taoyuan Airport  Terminal 1"
+      },
+      {
+        "SubRouteUID": "THB1623A2",
+        "SubRouteID": "1623A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1623A",
+          "En": "1623A"
+        },
+        "Headsign": "臺灣桃園國際機場→國道1號→臺中市[機場至朝馬]",
+        "HeadsignEn": "Taiwan Taoyuan International Airport→National Freeway No. 1→Taichung City(Taoyuan Airport to Chaoma)",
+        "Direction": 1,
+        "DepartureStopNameZh": "桃園機場第一航廈",
+        "DepartureStopNameEn": "Taoyuan Airport  Terminal 1",
+        "DestinationStopNameZh": "朝馬站",
+        "DestinationStopNameEn": "Chaoma Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1623",
+      "En": "1623"
+    },
+    "DepartureStopNameZh": "臺中車站(大智北路)",
+    "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+    "DestinationStopNameZh": "桃園機場第一航廈",
+    "DestinationStopNameEn": "Taoyuan Airport  Terminal 1",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1623.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1625",
+    "RouteID": "1625",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162501",
+        "SubRouteID": "162501",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625",
+          "En": "1625"
+        },
+        "Headsign": "臺中市→臺中交流道→國道1號→臺南交流道→臺南市[經臺南交流道]",
+        "HeadsignEn": "Taichung City→Taichung IC.→National Freeway No. 1→Tainan IC.→Tainan City(Via Tainan Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB162502",
+        "SubRouteID": "162502",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625",
+          "En": "1625"
+        },
+        "Headsign": "臺南市→臺南交流道→國道1號→臺中交流道→臺中市[經臺南交流道]",
+        "HeadsignEn": "Tainan City→Tainan IC.→National Freeway No. 1→Taichung IC.→Taichung City(Via Tainan Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1625A1",
+        "SubRouteID": "1625A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625A",
+          "En": "1625A"
+        },
+        "Headsign": "臺中市→臺中交流道→國道1號→臺南交流道→臺南市[經永康交流道]",
+        "HeadsignEn": "Taichung City→Taichung IC.→National Freeway No. 1→Tainan IC.→Tainan City(Via Yongkang Interchange)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1625A2",
+        "SubRouteID": "1625A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625A",
+          "En": "1625A"
+        },
+        "Headsign": "臺南市→臺南交流道→國道1號→臺中交流道→臺中市[經永康交流道]",
+        "HeadsignEn": "Tainan City→Tainan IC.→National Freeway No. 1→Taichung IC.→Taichung City(Via Yongkang Interchange)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1625B1",
+        "SubRouteID": "1625B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625B",
+          "En": "1625B"
+        },
+        "Headsign": "臺中市→臺中交流道→國道1號→臺南交流道→臺南市[經永康交流道、朝馬至臺南班次]",
+        "HeadsignEn": "Taichung City→Taichung IC.→National Freeway No. 1→Tainan IC.→Tainan City(Via Yongkang Interchange、Zhaoma→Tainan)",
+        "Direction": 0,
+        "DepartureStopNameZh": "朝馬站",
+        "DepartureStopNameEn": "Chaoma Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1625B2",
+        "SubRouteID": "1625B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625B",
+          "En": "1625B"
+        },
+        "Headsign": "臺南市→臺南交流道→國道1號→臺中交流道→臺中市[經永康交流道、臺南至朝馬班次]",
+        "HeadsignEn": "Tainan City→Tainan IC.→National Freeway No. 1→Taichung IC.→Taichung City(Via Yongkang Interchange、Tainan→Zhaoma)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "朝馬站",
+        "DestinationStopNameEn": "Chaoma Station"
+      },
+      {
+        "SubRouteUID": "THB1625C1",
+        "SubRouteID": "1625C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625C",
+          "En": "1625C"
+        },
+        "Headsign": "臺中市→臺中交流道→國道1號→臺南交流道→臺南市[經永康交流道，不停新營站、麻豆站]",
+        "HeadsignEn": "Taichung City→Taichung IC.→National Freeway No. 1→Tainan IC.→Tainan City(Via Yongkang Interchange、Not Via Xinying Station、Madou Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺中車站(大智北路)",
+        "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1625C2",
+        "SubRouteID": "1625C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625C",
+          "En": "1625C"
+        },
+        "Headsign": "臺南市→臺南交流道→國道1號→臺中交流道→臺中市[經永康交流道，不停麻豆站、新營站]",
+        "HeadsignEn": "Tainan City→Tainan IC.→National Freeway No. 1→Taichung IC.→Taichung City(Via Yongkang Interchange、Not Via Madou Station、Xinying Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "國軍英雄館",
+        "DestinationStopNameEn": "Taichung HERO HOUSE"
+      },
+      {
+        "SubRouteUID": "THB1625D1",
+        "SubRouteID": "1625D1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625D",
+          "En": "1625D"
+        },
+        "Headsign": "臺中市→臺中交流道→國道1號→臺南交流道→臺南市[經永康交流道、朝馬至臺南班次，不停麻豆站、新營站]",
+        "HeadsignEn": "Taichung City→Taichung IC.→National Freeway No. 1→Tainan IC.→Tainan City(Via Yongkang Interchange、Zhaoma→Tainan)",
+        "Direction": 0,
+        "DepartureStopNameZh": "朝馬站",
+        "DepartureStopNameEn": "Chaoma Station",
+        "DestinationStopNameZh": "臺南轉運站",
+        "DestinationStopNameEn": "Tainan Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1625D2",
+        "SubRouteID": "1625D2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1625D",
+          "En": "1625D"
+        },
+        "Headsign": "臺南市→臺南交流道→國道1號→臺中交流道→臺中市[經永康交流道、臺南至朝馬班次，不停麻豆站、新營站]",
+        "HeadsignEn": "Tainan City→Tainan IC.→National Freeway No. 1→Taichung IC.→Taichung City(Via Yongkang Interchange、Tainan→Zhaoma)",
+        "Direction": 1,
+        "DepartureStopNameZh": "臺南轉運站",
+        "DepartureStopNameEn": "Tainan Bus Station",
+        "DestinationStopNameZh": "朝馬站",
+        "DestinationStopNameEn": "Chaoma Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1625",
+      "En": "1625"
+    },
+    "DepartureStopNameZh": "臺中車站(大智北路)",
+    "DepartureStopNameEn": "Taichung Station(Dazhi North Road)",
+    "DestinationStopNameZh": "臺南轉運站",
+    "DestinationStopNameEn": "Tainan Bus Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1625.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1627",
+    "RouteID": "1627",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162701",
+        "SubRouteID": "162701",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1627",
+          "En": "1627"
+        },
+        "Headsign": "中壢服務區→臺灣桃園國際機場(機場接駁路線，不單獨售票)",
+        "HeadsignEn": "Zhongli Service Area→Taiwan Taoyuan International Airport(Airportshuttle routes, not sold separately)",
+        "Direction": 0,
+        "DepartureStopNameZh": "中壢服務區",
+        "DepartureStopNameEn": "Zhongil Service Area",
+        "DestinationStopNameZh": "桃園機場第一航廈",
+        "DestinationStopNameEn": "Taoyuan Airport  Terminal 1"
+      },
+      {
+        "SubRouteUID": "THB162702",
+        "SubRouteID": "162702",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1627",
+          "En": "1627"
+        },
+        "Headsign": "臺灣桃園國際機場→中壢服務區(機場接駁路線，不單獨售票)",
+        "HeadsignEn": "Taiwan Taoyuan International Airport→Zhongli Service Area(Airportshuttle routes, not sold separately)",
+        "Direction": 1,
+        "DepartureStopNameZh": "桃園機場第一航廈",
+        "DepartureStopNameEn": "Taoyuan Airport  Terminal 1",
+        "DestinationStopNameZh": "中壢服務區",
+        "DestinationStopNameEn": "Zhongli Service Area"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1627",
+      "En": "1627"
+    },
+    "DepartureStopNameZh": "中壢服務區",
+    "DepartureStopNameEn": "Zhongil Service Area",
+    "DestinationStopNameZh": "桃園機場第一航廈",
+    "DestinationStopNameEn": "Taoyuan Airport  Terminal 1",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1627.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1628",
+    "RouteID": "1628",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB162801",
+        "SubRouteID": "162801",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628",
+          "En": "1628"
+        },
+        "Headsign": "台北→麻豆、佳里→漚汪",
+        "HeadsignEn": "Taipei→Madou、Jiali→Ouwang",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "漚汪",
+        "DestinationStopNameEn": "Ouwang"
+      },
+      {
+        "SubRouteUID": "THB162802",
+        "SubRouteID": "162802",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628",
+          "En": "1628"
+        },
+        "Headsign": "漚汪→佳里、麻豆→台北",
+        "HeadsignEn": "Ouwang→Madou、Jiali→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "漚汪",
+        "DepartureStopNameEn": "Ouwang",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1628A1",
+        "SubRouteID": "1628A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628A",
+          "En": "1628A"
+        },
+        "Headsign": "台北→麻豆、佳里→漚汪[不停中壢祐民醫院]",
+        "HeadsignEn": "Taipei→Madou、Jiali→Ouwang(no stops Zhongli Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "漚汪",
+        "DestinationStopNameEn": "Ouwang"
+      },
+      {
+        "SubRouteUID": "THB1628A2",
+        "SubRouteID": "1628A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628A",
+          "En": "1628A"
+        },
+        "Headsign": "漚汪→佳里、麻豆→台北[不停中壢祐民醫院]",
+        "HeadsignEn": "Ouwang→Madou、Jiali→Taipei(no stops Zhongli Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "漚汪",
+        "DepartureStopNameEn": "Ouwang",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1628B1",
+        "SubRouteID": "1628B1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628B",
+          "En": "1628B"
+        },
+        "Headsign": "台北→麻豆、佳里→漚汪[延駛苓子寮、學甲]",
+        "HeadsignEn": "Taipei→Madou、Jiali→Ouwang[Extended Lingziliao、Xuejia]",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "學甲",
+        "DestinationStopNameEn": "Xuejia"
+      },
+      {
+        "SubRouteUID": "THB1628B2",
+        "SubRouteID": "1628B2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1628B",
+          "En": "1628B"
+        },
+        "Headsign": "漚汪→佳里、麻豆→台北[延駛苓子寮、學甲]",
+        "HeadsignEn": "Ouwang→Madou、Jiali→Taipei [ Extended Lingziliao、Xuejia]",
+        "Direction": 1,
+        "DepartureStopNameZh": "學甲",
+        "DepartureStopNameEn": "Xuejia",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1628",
+      "En": "1628"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "漚汪",
+    "DestinationStopNameEn": "Ouwang",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1628.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1630",
+    "RouteID": "1630",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB163001",
+        "SubRouteID": "163001",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630",
+          "En": "1630"
+        },
+        "Headsign": "臺北→西港",
+        "HeadsignEn": "Taipei→Xigang",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "西港",
+        "DestinationStopNameEn": "Xigang Station"
+      },
+      {
+        "SubRouteUID": "THB163002",
+        "SubRouteID": "163002",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630",
+          "En": "1630"
+        },
+        "Headsign": "西港→臺北",
+        "HeadsignEn": "Xigang→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "西港",
+        "DepartureStopNameEn": "Xigang Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1630A1",
+        "SubRouteID": "1630A1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630A",
+          "En": "1630A"
+        },
+        "Headsign": "臺北→西港[不停中港轉運站]",
+        "HeadsignEn": "Taipei→Xigang(no stops Zhonggang Bus Station)",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "西港",
+        "DestinationStopNameEn": "Xigang Station"
+      },
+      {
+        "SubRouteUID": "THB1630A2",
+        "SubRouteID": "1630A2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630A",
+          "En": "1630A"
+        },
+        "Headsign": "西港→臺北[不停中港轉運站]",
+        "HeadsignEn": "Xigang→Taipei(no stops Zhonggang Bus Station)",
+        "Direction": 1,
+        "DepartureStopNameZh": "西港",
+        "DepartureStopNameEn": "Xigang Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      },
+      {
+        "SubRouteUID": "THB1630C1",
+        "SubRouteID": "1630C1",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630C",
+          "En": "1630C"
+        },
+        "Headsign": "臺北→西港[經竹塘]",
+        "HeadsignEn": "Taipei→Xigang",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "西港",
+        "DestinationStopNameEn": "Xigang Station"
+      },
+      {
+        "SubRouteUID": "THB1630C2",
+        "SubRouteID": "1630C2",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1630C",
+          "En": "1630C"
+        },
+        "Headsign": "西港→臺北[經竹塘]",
+        "HeadsignEn": "Xigang→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "西港",
+        "DepartureStopNameEn": "Xigang Station",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1630",
+      "En": "1630"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "西港",
+    "DestinationStopNameEn": "Xigang Station",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1630.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  },
+  {
+    "RouteUID": "THB1632",
+    "RouteID": "1632",
+    "HasSubRoutes": true,
+    "Operators": [
+      {
+        "OperatorID": "34",
+        "OperatorName": {
+          "Zh_tw": "統聯客運",
+          "En": "United Highway Bus Co., Ltd."
+        },
+        "OperatorCode": "UnitedHighwayBus",
+        "OperatorNo": "1201"
+      }
+    ],
+    "AuthorityID": "010",
+    "ProviderID": "010",
+    "SubRoutes": [
+      {
+        "SubRouteUID": "THB163201",
+        "SubRouteID": "163201",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1632",
+          "En": "1632"
+        },
+        "Headsign": "台北→草屯→竹山",
+        "HeadsignEn": "Taipei→Caotun→Zhushan",
+        "Direction": 0,
+        "DepartureStopNameZh": "臺北轉運站",
+        "DepartureStopNameEn": "Taipei Bus Station",
+        "DestinationStopNameZh": "竹山",
+        "DestinationStopNameEn": "Zhushan"
+      },
+      {
+        "SubRouteUID": "THB163202",
+        "SubRouteID": "163202",
+        "OperatorIDs": [
+          "34"
+        ],
+        "SubRouteName": {
+          "Zh_tw": "1632",
+          "En": "1632"
+        },
+        "Headsign": "竹山→草屯→台北",
+        "HeadsignEn": "Zhushan→Caotun→Taipei",
+        "Direction": 1,
+        "DepartureStopNameZh": "竹山",
+        "DepartureStopNameEn": "Zhushan",
+        "DestinationStopNameZh": "臺北轉運站",
+        "DestinationStopNameEn": "Taipei Bus Station"
+      }
+    ],
+    "BusRouteType": 13,
+    "RouteName": {
+      "Zh_tw": "1632",
+      "En": "1632"
+    },
+    "DepartureStopNameZh": "臺北轉運站",
+    "DepartureStopNameEn": "Taipei Bus Station",
+    "DestinationStopNameZh": "竹山",
+    "DestinationStopNameEn": "Zhushan",
+    "RouteMapImageUrl": "https://web.taiwanbus.tw/MISUploadData/Schematic/file/1632.jpg",
+    "UpdateTime": "2026-08-20T13:26:12+08:00",
+    "VersionID": 7506
+  }
+]

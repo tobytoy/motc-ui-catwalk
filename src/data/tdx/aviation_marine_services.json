@@ -1,0 +1,64 @@
+{
+  "title": "TDX 全臺智慧航空與海運客運港站",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "flights": [
+    {
+      "airport": "桃園國際機場 TPE",
+      "terminal": "T2 二航廈",
+      "flightNo": "BR-871 (長榮航空)",
+      "destination": "香港 HKG",
+      "scheduledTime": "10:30",
+      "status": "登機中 (Boarding)",
+      "gate": "C6",
+      "statusCode": "boarding"
+    },
+    {
+      "airport": "桃園國際機場 TPE",
+      "terminal": "T1 一航廈",
+      "flightNo": "CI-100 (中華航空)",
+      "destination": "東京成田 NRT",
+      "scheduledTime": "10:45",
+      "status": "準點 (On Time)",
+      "gate": "A4",
+      "statusCode": "on_time"
+    },
+    {
+      "airport": "臺北松山機場 TSA",
+      "terminal": "T1 國際線",
+      "flightNo": "JL-096 (日本航空)",
+      "destination": "東京羽田 HND",
+      "scheduledTime": "11:00",
+      "status": "準點 (On Time)",
+      "gate": "Gate 6",
+      "statusCode": "on_time"
+    },
+    {
+      "airport": "臺北松山機場 TSA",
+      "terminal": "T2 國內線",
+      "flightNo": "B7-8815 (立榮航空)",
+      "destination": "金門 KNH",
+      "scheduledTime": "11:15",
+      "status": "候機中",
+      "gate": "Gate 10",
+      "statusCode": "on_time"
+    }
+  ],
+  "ferries": [
+    {
+      "port": "基隆港",
+      "destination": "馬祖南竿 (福澳港)",
+      "ferryName": "新臺馬輪",
+      "departure": "22:00",
+      "seaCondition": "浪高 1.2m · 海象平穩",
+      "status": "正常開航"
+    },
+    {
+      "port": "東港碼頭",
+      "destination": "小琉球 (白沙尾)",
+      "ferryName": "泰富輪",
+      "departure": "10:30",
+      "seaCondition": "微浪 0.6m",
+      "status": "班次密集 正常開航"
+    }
+  ]
+}

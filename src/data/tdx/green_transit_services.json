@@ -1,0 +1,66 @@
+{
+  "title": "TDX 低碳微型運具與綠生活足跡",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "youbikeStations": [
+    {
+      "id": "YB-1001",
+      "name": "捷運忠孝新生站 (3號出口)",
+      "bikesAvailable": 14,
+      "emptyDocks": 8,
+      "totalDocks": 22,
+      "ebikes": 3,
+      "distanceM": 80,
+      "status": "車輛充足"
+    },
+    {
+      "id": "YB-1002",
+      "name": "華山 1914 文創園區",
+      "bikesAvailable": 21,
+      "emptyDocks": 4,
+      "totalDocks": 25,
+      "ebikes": 5,
+      "distanceM": 210,
+      "status": "車輛充足"
+    },
+    {
+      "id": "YB-1003",
+      "name": "松江南京商圈 (1號出口)",
+      "bikesAvailable": 2,
+      "emptyDocks": 18,
+      "totalDocks": 20,
+      "ebikes": 0,
+      "distanceM": 320,
+      "status": "即將補車"
+    },
+    {
+      "id": "YB-1004",
+      "name": "國立臺灣大學校門口",
+      "bikesAvailable": 42,
+      "emptyDocks": 18,
+      "totalDocks": 60,
+      "ebikes": 12,
+      "distanceM": 450,
+      "status": "車輛充足"
+    }
+  ],
+  "evChargers": [
+    {
+      "id": "EV-TP-01",
+      "location": "大安森林公園地下停車場",
+      "availableGuns": 8,
+      "totalGuns": 12,
+      "maxPowerKw": "120kW (CCS1/CCS2)",
+      "fee": "$9.5/度",
+      "occupied": "4槍充電中"
+    },
+    {
+      "id": "EV-TP-02",
+      "location": "台北流行音樂中心停車場",
+      "availableGuns": 6,
+      "totalGuns": 8,
+      "maxPowerKw": "180kW 超充",
+      "fee": "$10.5/度",
+      "occupied": "2槍充電中"
+    }
+  ]
+}

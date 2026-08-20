@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bus_taipei_routes",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Bus/Route/City/Taipei?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "bus_taipei_realtime",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Bus/RealTimeByFrequency/City/Taipei?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "bus_taipei_eta",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Bus/EstimatedTimeOfArrival/City/Taipei?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "rail_tra_stations",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/Station?%24top=30&%24format=JSON",
+    "records": 30,
+    "status": "success"
+  },
+  {
+    "id": "rail_tra_live_delay",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/LiveTrainDelay?%24top=30&%24format=JSON",
+    "records": 30,
+    "status": "success"
+  },
+  {
+    "id": "rail_thsr_stations",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Rail/THSR/Station?%24top=20&%24format=JSON",
+    "records": 12,
+    "status": "success"
+  },
+  {
+    "id": "metro_trtc_stations",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/Station/TRTC?%24top=30&%24format=JSON",
+    "records": 30,
+    "status": "success"
+  },
+  {
+    "id": "metro_trtc_lines",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/Line/TRTC?%24top=20&%24format=JSON",
+    "records": 5,
+    "status": "success"
+  },
+  {
+    "id": "bike_taipei_availability",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Bike/Availability/City/Taipei?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "bike_taipei_stations",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Bike/Station/City/Taipei?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "air_fids_airport",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Air/FIDS/Airport?%24top=30&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "ship_ports",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Ship/Port?%24top=20&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "road_cctv_taipei",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/Taipei?%24top=20&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "tourism_scenic_spots",
+    "url": "https://tdx.transportdata.tw/api/basic/v2/Tourism/ScenicSpot?%24top=20&%24format=JSON",
+    "records": 0,
+    "status": "failed: HTTP Error 429: Too Many Requests"
+  }
+]

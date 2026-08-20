@@ -1,0 +1,223 @@
+{
+  "platform": "交通部運輸資料流通服務平臺 (TDX)",
+  "officialUrl": "https://tdx.transportdata.tw/data-service/basic",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "categories": [
+    {
+      "id": "basic_provincial_highway",
+      "name": "基礎服務 - 省道即時路況與公路客運",
+      "tier": "Basic (免審核基礎服務)",
+      "description": "提供全臺公路客運路線、時刻表、班表、票價、即時動態(A1/A2)、到站預估(N1)及省道 CCTV、CMS、VD 車輛偵測、eTag 配對路徑等資料。",
+      "servicesCount": 24,
+      "quota": "1500 次/點 · 150MB/點",
+      "endpoints": [
+        {
+          "name": "全臺公路客運車輛資料",
+          "version": "v2",
+          "frequency": "不定時",
+          "format": "JSON/XML"
+        },
+        {
+          "name": "全臺縣市代碼資料 (City / County)",
+          "version": "v2",
+          "frequency": "不定時",
+          "format": "JSON/XML"
+        },
+        {
+          "name": "公路客運路線與營運時刻表",
+          "version": "v2",
+          "frequency": "每日",
+          "format": "JSON/XML"
+        },
+        {
+          "name": "公路客運動態定時資料 (A1) / 定點 (A2)",
+          "version": "v2",
+          "frequency": "每分鐘",
+          "format": "JSON/Streaming/MQTT"
+        },
+        {
+          "name": "公路客運預估到站資料 (N1)",
+          "version": "v2",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "省道 CMS 資訊可變標誌即時資訊",
+          "version": "v2",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "省道 CCTV 閉路電視攝影機影像串流",
+          "version": "v2",
+          "frequency": "即時/每日",
+          "format": "JSON/HLS"
+        },
+        {
+          "name": "省道 VD 車輛偵測器與 eTag 旅行時間",
+          "version": "v2",
+          "frequency": "每小時/每分鐘",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
+      "id": "rail_transit",
+      "name": "軌道運輸 - 臺鐵 / 高鐵 / 都會捷運 / 輕軌",
+      "tier": "Advanced Service",
+      "description": "整合臺鐵局 TRA 全臺列車動態與誤點看板、台灣高鐵 THSR 車次即時座位動態、臺北捷運/新北捷運/桃園機捷/臺中捷運/高雄捷運之列車進站與車廂擁擠度。",
+      "servicesCount": 42,
+      "quota": "即時串流 / 專屬配額",
+      "endpoints": [
+        {
+          "name": "臺鐵列車即時誤點資訊 (LiveTrainDelay)",
+          "version": "v2/v3",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "臺鐵車站各車次即時動態看板 (StationLiveBoard)",
+          "version": "v3",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "高鐵每日綜合時刻表與自由座配置",
+          "version": "v2",
+          "frequency": "每日",
+          "format": "JSON"
+        },
+        {
+          "name": "都會捷運列車即時進站與班距倒數 (TRTC/KRTC/TYMC)",
+          "version": "v2",
+          "frequency": "每 10 秒",
+          "format": "JSON/MQTT"
+        },
+        {
+          "name": "捷運車廂擁擠度熱圖感測 (TRTC Carriage Density)",
+          "version": "v2",
+          "frequency": "即時",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
+      "id": "city_bus",
+      "name": "都會市區公車 - 全臺 22 縣市公車聯網",
+      "tier": "City Realtime Service",
+      "description": "涵蓋雙北、臺中、高雄、臺南、桃園等全臺各縣市公車即時動態、站點 GIS 座標、秒級到站倒數與無障礙低地板班次。",
+      "servicesCount": 38,
+      "quota": "標準配額 / OpenAPI",
+      "endpoints": [
+        {
+          "name": "縣市公車即時動態位置 (RealTimeByFrequency)",
+          "version": "v2",
+          "frequency": "每 15 秒",
+          "format": "JSON"
+        },
+        {
+          "name": "縣市公車預估到站時間 (EstimatedTimeOfArrival)",
+          "version": "v2",
+          "frequency": "每 15 秒",
+          "format": "JSON"
+        },
+        {
+          "name": "公車站牌與站位幾何圖資 (Stop / Station GIS)",
+          "version": "v2",
+          "frequency": "每日",
+          "format": "GeoJSON/JSON"
+        }
+      ]
+    },
+    {
+      "id": "green_micromobility",
+      "name": "微型運具與低碳綠生活 - YouBike 2.0 & 公共充電樁",
+      "tier": "Eco-Mobility Service",
+      "description": "即時串接全臺 YouBike 2.0 車位可借可還剩餘數、電輔車電量監控、全國公共電動車充電站槍位即時功率與佔用率。",
+      "servicesCount": 16,
+      "quota": "即時 / 每分鐘",
+      "endpoints": [
+        {
+          "name": "YouBike 2.0 各場站即時車位與可借數量 (Bike Availability)",
+          "version": "v2",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "YouBike 2.0 站點圖資與導航坐標",
+          "version": "v2",
+          "frequency": "每日",
+          "format": "JSON/GeoJSON"
+        },
+        {
+          "name": "全國電動載具 EV 公共充電站營運與即時空位",
+          "version": "v1",
+          "frequency": "每 3 分鐘",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
+      "id": "highway_freeway",
+      "name": "高快速公路 - 國道即時路況與旅行時間",
+      "tier": "National Freeway Service",
+      "description": "高公局 1968 國道 1/3/5 號及快速道路即時車速熱圖、交管高乘載管制、路段事故排除通報、休息服務區即時停車格位。",
+      "servicesCount": 20,
+      "quota": "即時 / 每 2 分鐘",
+      "endpoints": [
+        {
+          "name": "國道各路段即時平均車速 (Freeway Live Speed)",
+          "version": "v2",
+          "frequency": "每 2 分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "國道即時旅行時間預估 (Travel Time Matrix)",
+          "version": "v2",
+          "frequency": "每 5 分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "國道即時通阻與交通事故事件 (Traffic Incident)",
+          "version": "v2",
+          "frequency": "不定時/即時",
+          "format": "JSON"
+        },
+        {
+          "name": "國道服務區即時剩餘停車格 (Service Area Parking)",
+          "version": "v2",
+          "frequency": "每 3 分鐘",
+          "format": "JSON"
+        }
+      ]
+    },
+    {
+      "id": "aviation_marine",
+      "name": "航空與航運 - 全臺機場航班與客運港口船班",
+      "tier": "Air & Marine Service",
+      "description": "全臺國際與國內機場（桃機 TPE、松機 TSA、小港 KHH 等）即時航班起降狀態看板(FIDS)、行李轉盤、港口客運航線與風浪海象停航預警。",
+      "servicesCount": 18,
+      "quota": "即時 / 每 3 分鐘",
+      "endpoints": [
+        {
+          "name": "全臺機場航班即時起降看板 (Air FIDS)",
+          "version": "v2",
+          "frequency": "每分鐘",
+          "format": "JSON"
+        },
+        {
+          "name": "航空公司與航廈登機門對應 (Airlines / Gates)",
+          "version": "v2",
+          "frequency": "每日",
+          "format": "JSON"
+        },
+        {
+          "name": "國內客運客船航線與即時開航/停航動態",
+          "version": "v2",
+          "frequency": "每 10 分鐘",
+          "format": "JSON"
+        }
+      ]
+    }
+  ]
+}

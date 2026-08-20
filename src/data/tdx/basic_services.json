@@ -1,0 +1,107 @@
+{
+  "title": "TDX 基礎服務：省道公路與客運聯網",
+  "source": "https://tdx.transportdata.tw/data-service/basic",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "cmsSigns": [
+    {
+      "id": "CMS-TY-01",
+      "location": "台1線 龜山段 18K+200",
+      "message": "【即時路況】前方體育大學路段車流回堵，請減速慢行",
+      "type": "warning",
+      "speedLimit": 50
+    },
+    {
+      "id": "CMS-KL-03",
+      "location": "台2線 萬里段 49K+800",
+      "message": "【天候提醒】北海岸有陣雨易積水，請開啟大燈並保持車距",
+      "type": "weather",
+      "speedLimit": 60
+    },
+    {
+      "id": "CMS-TP-08",
+      "location": "台64線 中和匝道 24K+100",
+      "message": "【交管提示】板橋至中和段行車順暢，平均時速 68 km/h",
+      "type": "info",
+      "speedLimit": 70
+    },
+    {
+      "id": "CMS-IL-05",
+      "location": "台9線 蘇花改 104K+300",
+      "message": "【隧道指引】東澳隧道內保持 50 公尺安全車距，禁止變換車道",
+      "type": "alert",
+      "speedLimit": 70
+    }
+  ],
+  "cctvFeeds": [
+    {
+      "id": "CCTV-N-01",
+      "road": "台9線蘇花改",
+      "mileage": "112K+400",
+      "status": "LIVE 運作中",
+      "streamResolution": "1080p 60fps",
+      "trafficDensity": "順暢 (18%)"
+    },
+    {
+      "id": "CCTV-N-02",
+      "road": "台64線八里新店線",
+      "mileage": "18K+200",
+      "status": "LIVE 運作中",
+      "streamResolution": "1080p 60fps",
+      "trafficDensity": "車多 (62%)"
+    },
+    {
+      "id": "CCTV-N-03",
+      "road": "台65線土城板橋段",
+      "mileage": "08K+600",
+      "status": "LIVE 運作中",
+      "streamResolution": "1080p 60fps",
+      "trafficDensity": "順暢 (25%)"
+    },
+    {
+      "id": "CCTV-N-04",
+      "road": "台61線西濱快速道路",
+      "mileage": "42K+100",
+      "status": "LIVE 運作中",
+      "streamResolution": "1080p 60fps",
+      "trafficDensity": "順暢 (12%)"
+    }
+  ],
+  "intercityBusRoutes": [
+    {
+      "routeNo": "1815",
+      "operator": "國光客運",
+      "headsign": "臺北車站 ⇄ 金山青年活動中心",
+      "interval": "10-15 分",
+      "nextBusMin": 3,
+      "fare": 125,
+      "wheelchair": true
+    },
+    {
+      "routeNo": "9009",
+      "operator": "指南/中壢客運",
+      "headsign": "市府轉運站 ⇄ 桃園市西北區",
+      "interval": "8-12 分",
+      "nextBusMin": 5,
+      "fare": 95,
+      "wheelchair": true
+    },
+    {
+      "routeNo": "2002",
+      "operator": "汎航通運",
+      "headsign": "長庚醫院 ⇄ 臺北長庚",
+      "interval": "15-20 分",
+      "nextBusMin": 7,
+      "fare": 40,
+      "wheelchair": false
+    },
+    {
+      "routeNo": "1610",
+      "operator": "統聯客運",
+      "headsign": "臺北轉運站 ⇄ 高雄建國站",
+      "interval": "30 分",
+      "nextBusMin": 12,
+      "fare": 590,
+      "wheelchair": true
+    }
+  ]
+}

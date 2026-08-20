@@ -1,0 +1,332 @@
+[
+  {
+    "TrainNo": "1",
+    "StationID": "6110",
+    "StationName": {
+      "Zh_tw": "玉里",
+      "En": "Yuli"
+    },
+    "DelayTime": 2,
+    "SrcUpdateTime": "2026-08-20T15:11:58+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1038",
+    "StationID": "4400",
+    "StationName": {
+      "Zh_tw": "高雄",
+      "En": "Kaohsiung"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:09:58+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "117",
+    "StationID": "4460",
+    "StationName": {
+      "Zh_tw": "九曲堂",
+      "En": "Jiuqutang"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:30+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1178",
+    "StationID": "0930",
+    "StationName": {
+      "Zh_tw": "七堵",
+      "En": "Qidu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T13:26:07+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "118",
+    "StationID": "0990",
+    "StationName": {
+      "Zh_tw": "松山",
+      "En": "Songshan"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:44+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1187",
+    "StationID": "1230",
+    "StationName": {
+      "Zh_tw": "香山",
+      "En": "Xiangshan"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:16+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1188",
+    "StationID": "0930",
+    "StationName": {
+      "Zh_tw": "七堵",
+      "En": "Qidu"
+    },
+    "DelayTime": 3,
+    "SrcUpdateTime": "2026-08-20T14:25:30+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1191",
+    "StationID": "1130",
+    "StationName": {
+      "Zh_tw": "富岡",
+      "En": "Fugang"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:16+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1192",
+    "StationID": "0930",
+    "StationName": {
+      "Zh_tw": "七堵",
+      "En": "Qidu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:03:38+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1197",
+    "StationID": "1080",
+    "StationName": {
+      "Zh_tw": "桃園",
+      "En": "Taoyuan"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:26+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1198",
+    "StationID": "0930",
+    "StationName": {
+      "Zh_tw": "七堵",
+      "En": "Qidu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:46+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "120",
+    "StationID": "1020",
+    "StationName": {
+      "Zh_tw": "板橋",
+      "En": "Banqiao"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:20+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1201",
+    "StationID": "1010",
+    "StationName": {
+      "Zh_tw": "萬華",
+      "En": "Wanhua"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:12+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1202",
+    "StationID": "1010",
+    "StationName": {
+      "Zh_tw": "萬華",
+      "En": "Wanhua"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:10:32+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1203",
+    "StationID": "1070",
+    "StationName": {
+      "Zh_tw": "鶯歌",
+      "En": "Yingge"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:30+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1207",
+    "StationID": "0980",
+    "StationName": {
+      "Zh_tw": "南港",
+      "En": "Nangang"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:18+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1208",
+    "StationID": "1060",
+    "StationName": {
+      "Zh_tw": "山佳",
+      "En": "Shanjia"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:00+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "121",
+    "StationID": "4290",
+    "StationName": {
+      "Zh_tw": "大湖",
+      "En": "Dahu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:04+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1211",
+    "StationID": "7360",
+    "StationName": {
+      "Zh_tw": "瑞芳",
+      "En": "Ruifang"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:28+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1212",
+    "StationID": "1110",
+    "StationName": {
+      "Zh_tw": "埔心",
+      "En": "Puxin"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:08+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1214",
+    "StationID": "1100",
+    "StationName": {
+      "Zh_tw": "中壢",
+      "En": "Zhongli_Taoyuan"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:08+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1217",
+    "StationID": "0900",
+    "StationName": {
+      "Zh_tw": "基隆",
+      "En": "Keelung"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:28+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1218",
+    "StationID": "1160",
+    "StationName": {
+      "Zh_tw": "湖口",
+      "En": "Hukou"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:14+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "122",
+    "StationID": "3220",
+    "StationName": {
+      "Zh_tw": "后里",
+      "En": "Houli"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:05:54+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1222",
+    "StationID": "1210",
+    "StationName": {
+      "Zh_tw": "新竹",
+      "En": "Hsinchu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:12:24+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1227",
+    "StationID": "0930",
+    "StationName": {
+      "Zh_tw": "七堵",
+      "En": "Qidu"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:36+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "1228",
+    "StationID": "1250",
+    "StationName": {
+      "Zh_tw": "竹南",
+      "En": "Zhunan"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:06:42+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "123",
+    "StationID": "3450",
+    "StationName": {
+      "Zh_tw": "林內",
+      "En": "Linnei"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:09:28+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "124",
+    "StationID": "1250",
+    "StationName": {
+      "Zh_tw": "竹南",
+      "En": "Zhunan"
+    },
+    "DelayTime": 1,
+    "SrcUpdateTime": "2026-08-20T15:08:58+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  },
+  {
+    "TrainNo": "125",
+    "StationID": "3350",
+    "StationName": {
+      "Zh_tw": "成功",
+      "En": "Chenggong"
+    },
+    "DelayTime": 0,
+    "SrcUpdateTime": "2026-08-20T15:11:26+08:00",
+    "UpdateTime": "2026-08-20T15:13:04+08:00"
+  }
+]

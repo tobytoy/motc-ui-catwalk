@@ -1,0 +1,100 @@
+{
+  "title": "TDX 捷運路網全域即時監測",
+  "lines": [
+    {
+      "code": "BL",
+      "name": "板南線 (Bannan Line)",
+      "color": "#0070bd",
+      "headway": "135 秒",
+      "status": "全線正常營運",
+      "activeTrains": 28,
+      "nextArrivals": [
+        {
+          "station": "忠孝復興",
+          "direction": "往 頂埔",
+          "countdownSec": 45,
+          "carriages": [
+            "舒適",
+            "微擠",
+            "微擠",
+            "微擠",
+            "舒適",
+            "舒適"
+          ]
+        },
+        {
+          "station": "台北車站",
+          "direction": "往 南港展覽館",
+          "countdownSec": 90,
+          "carriages": [
+            "擁擠",
+            "擁擠",
+            "擁擠",
+            "微擠",
+            "微擠",
+            "舒適"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "淡水信義線 (Tamsui-Xinyi Line)",
+      "color": "#e3002c",
+      "headway": "150 秒",
+      "status": "全線正常營運",
+      "activeTrains": 26,
+      "nextArrivals": [
+        {
+          "station": "大安",
+          "direction": "往 淡水",
+          "countdownSec": 60,
+          "carriages": [
+            "舒適",
+            "舒適",
+            "微擠",
+            "微擠",
+            "舒適",
+            "舒適"
+          ]
+        },
+        {
+          "station": "中山",
+          "direction": "往 象山",
+          "countdownSec": 115,
+          "carriages": [
+            "微擠",
+            "微擠",
+            "微擠",
+            "微擠",
+            "舒適",
+            "舒適"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "松山新店線 (Songshan-Xindian Line)",
+      "color": "#008659",
+      "headway": "180 秒",
+      "status": "全線正常營運",
+      "activeTrains": 18,
+      "nextArrivals": [
+        {
+          "station": "南京復興",
+          "direction": "往 新店",
+          "countdownSec": 75,
+          "carriages": [
+            "舒適",
+            "舒適",
+            "舒適",
+            "微擠",
+            "微擠",
+            "舒適"
+          ]
+        }
+      ]
+    }
+  ]
+}

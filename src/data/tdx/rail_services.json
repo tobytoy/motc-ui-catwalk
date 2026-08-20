@@ -1,0 +1,62 @@
+{
+  "title": "TDX 雙鐵智慧聯合乘車看板 (TRA & THSR)",
+  "station": "台北車站 (Taipei Central Station)",
+  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "trains": [
+    {
+      "type": "THSR 高鐵",
+      "trainNo": "613 次",
+      "destination": "左營",
+      "departureTime": "10:11",
+      "platform": "第 2B 月台",
+      "status": "準點",
+      "statusCode": "on_time",
+      "freeSeatCars": "10-12 車廂",
+      "occupiedRate": "75%"
+    },
+    {
+      "type": "TRA 臺鐵",
+      "trainNo": "自強(3000) 418 次",
+      "destination": "臺東",
+      "departureTime": "10:18",
+      "platform": "第 4A 月台",
+      "status": "準點",
+      "statusCode": "on_time",
+      "freeSeatCars": "無自由座",
+      "occupiedRate": "92%"
+    },
+    {
+      "type": "THSR 高鐵",
+      "trainNo": "1205 次 (直達)",
+      "destination": "左營",
+      "departureTime": "10:31",
+      "platform": "第 1B 月台",
+      "status": "準點",
+      "statusCode": "on_time",
+      "freeSeatCars": "9-12 車廂",
+      "occupiedRate": "60%"
+    },
+    {
+      "type": "TRA 臺鐵",
+      "trainNo": "普悠瑪 222 次",
+      "destination": "花蓮",
+      "departureTime": "10:38",
+      "platform": "第 3B 月台",
+      "status": "誤點 4 分",
+      "statusCode": "delayed",
+      "freeSeatCars": "無自由座",
+      "occupiedRate": "98%"
+    },
+    {
+      "type": "TRA 臺鐵",
+      "trainNo": "區間快 2011 次",
+      "destination": "新竹",
+      "departureTime": "10:45",
+      "platform": "第 4B 月台",
+      "status": "準點",
+      "statusCode": "on_time",
+      "freeSeatCars": "全車自由座",
+      "occupiedRate": "45%"
+    }
+  ]
+}

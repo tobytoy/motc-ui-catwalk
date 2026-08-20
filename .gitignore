@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node & Web
+node_modules/
+dist/
+dist-ssr/
+*.local
+.firebase/
+firebase-debug.log
+.DS_Store
+
+# Temporary & Local Scratch
+TMP/
+scripts/
+
