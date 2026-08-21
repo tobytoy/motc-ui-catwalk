@@ -1,47 +1,63 @@
-import React, { useState } from 'react';
-import { Search, Command, ArrowRight, Check, Copy, Zap } from 'lucide-react';
-import servicesCatalog from '../../data/tdx/services_catalog.json';
+import React, { useState, useMemo } from 'react';
+import { Search, Command, Check, Copy } from 'lucide-react';
+import apiMetadata from '../../data/tdx/api_metadata.json';
+
+interface EndpointItem {
+  id: string;
+  name: string;
+  version: string;
+  isRestricted: boolean;
+  category: string;
+  theme: string;
+  domain: string;
+  updateFrequency: string;
+  httpMethod: string;
+  apiPath: string;
+  supportFormat: string;
+  supportMQTT?: boolean;
+  billingTimes: string;
+  billingVolume: string;
+  description: string;
+}
 
 export const TDXCommandPaletteUI: React.FC = () => {
+  const allEndpoints = apiMetadata as EndpointItem[];
+
   const [query, setQuery] = useState('');
-  const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [selectedTag, setSelectedTag] = useState<string>('全部');
   const [copiedPath, setCopiedPath] = useState<string | null>(null);
 
-  const tags = ['全部', '免審核基礎', '即時串流', '軌道運輸', '公車動態', '低碳微移動', '國道路況'];
+  const tags = [
+    '全部',
+    '免審核基礎 (213)',
+    '加值治理 (201)',
+    '電子票證 (155)',
+    '道路安全 (111)',
+    '市區公車',
+    '即時秒級',
+  ];
 
-  // Flatten all endpoints
-  const allEndpoints = servicesCatalog.categories.flatMap((cat) =>
-    cat.endpoints.map((ep) => ({
-      ...ep,
-      categoryName: cat.name,
-      categoryId: cat.id,
-      quota: cat.quota,
-    }))
-  );
+  const filtered = useMemo(() => {
+    return allEndpoints.filter((ep) => {
+      if (selectedTag === '免審核基礎 (213)' && !ep.category.includes('基礎')) return false;
+      if (selectedTag === '加值治理 (201)' && !ep.category.includes('加值')) return false;
+      if (selectedTag === '電子票證 (155)' && !ep.category.includes('票證')) return false;
+      if (selectedTag === '道路安全 (111)' && !ep.theme.includes('道安') && !ep.domain.includes('安全')) return false;
+      if (selectedTag === '市區公車' && !ep.domain.includes('公車')) return false;
+      if (selectedTag === '即時秒級' && !['15', '30', '60', '0'].includes(ep.updateFrequency)) return false;
 
-  const filtered = allEndpoints.filter((ep) => {
-    const matchesTag =
-      !selectedTag ||
-      selectedTag === '全部' ||
-      (selectedTag === '免審核基礎' && ep.categoryName.includes('基礎')) ||
-      (selectedTag === '即時串流' && ep.format.includes('MQTT')) ||
-      (selectedTag === '軌道運輸' && ep.categoryName.includes('軌道')) ||
-      (selectedTag === '公車動態' && ep.name.includes('公車')) ||
-      (selectedTag === '低碳微移動' && ep.name.includes('Bike')) ||
-      (selectedTag === '國道路況' && ep.categoryName.includes('公路'));
+      if (!query.trim()) return true;
+      const q = query.toLowerCase();
+      return (
+        ep.name.toLowerCase().includes(q) ||
+        ep.apiPath.toLowerCase().includes(q) ||
+        ep.domain.toLowerCase().includes(q) ||
+        ep.theme.toLowerCase().includes(q)
+      );
+    });
+  }, [allEndpoints, selectedTag, query]);
 
-    if (!matchesTag) return false;
-
-    if (!query) return true;
-    const q = query.toLowerCase();
-    return (
-      ep.name.toLowerCase().includes(q) ||
-      ep.categoryName.toLowerCase().includes(q) ||
-      ep.format.toLowerCase().includes(q)
-    );
-  });
-
-  const [selectedItem, setSelectedItem] = useState(filtered[0] || allEndpoints[0]);
+  const [selectedItem, setSelectedItem] = useState<EndpointItem>(filtered[0] || allEndpoints[0]);
 
   const handleCopy = (path: string) => {
     navigator.clipboard.writeText(path);
@@ -50,159 +66,187 @@ export const TDXCommandPaletteUI: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-full bg-[#080c14] text-slate-100 p-4 sm:p-5 flex flex-col justify-between select-none overflow-hidden font-sans">
-      {/* Top Bar */}
-      <div className="flex items-center justify-between border-b border-indigo-500/20 pb-3">
-        <div className="flex items-center space-x-3">
+    <div className="w-full h-full bg-[#080c14] text-slate-100 p-3 sm:p-5 flex flex-col justify-between select-none overflow-hidden font-sans text-xs">
+      {/* Top Header */}
+      <div className="flex items-center justify-between border-b border-purple-500/20 pb-2.5 shrink-0">
+        <div className="flex items-center space-x-2.5">
           <div className="p-2 rounded-xl bg-purple-500/20 text-purple-400 border border-purple-500/30">
             <Command className="w-4 h-4" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30 font-bold">
-                UI 典範 5 · 極速指令與搜尋中樞
+              <h3 className="font-extrabold text-sm sm:text-base text-white tracking-wide">
+                TDX 極速指令搜尋中樞
+              </h3>
+              <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-purple-500/20 text-purple-300 font-bold">
+                Cmd+K Spotlight
               </span>
-              <h3 className="font-extrabold text-sm sm:text-base text-white">TDX Spotlight 快速檢索</h3>
             </div>
-            <p className="text-[10px] text-slate-400">效率至上 · 打字即時篩選、鍵盤方向鍵導覽與一鍵呼叫端點</p>
+            <p className="text-[11px] text-slate-400">
+              全域 738 API 模糊檢索 · 標籤分組過濾 · 1 步直達 URL
+            </p>
           </div>
         </div>
 
-        <div className="hidden sm:flex items-center space-x-1 font-mono text-[10px] bg-slate-900 px-2 py-1 rounded-lg border border-slate-800 text-slate-400">
-          <kbd className="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">⌘</kbd>
-          <kbd className="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">K</kbd>
-          <span className="ml-1">快速喚醒</span>
+        <span className="text-[11px] font-mono text-purple-300 hidden sm:inline bg-purple-950/50 px-2.5 py-1 rounded-xl border border-purple-500/30">
+          內存索引: {allEndpoints.length} 支端點
+        </span>
+      </div>
+
+      {/* Main Search Input Box */}
+      <div className="my-2 shrink-0">
+        <div className="relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+            }}
+            placeholder="打字搜尋（例如: 南投 停車、公車動態、A1事故、票證）..."
+            className="w-full pl-9 pr-4 py-2.5 rounded-2xl bg-slate-900/90 border border-purple-500/40 text-sm text-white placeholder-slate-500 focus:border-purple-400 focus:ring-2 focus:ring-purple-500/20 outline-none transition-all shadow-xl"
+          />
+          <Search className="w-4 h-4 text-purple-400 absolute left-3 top-3.5" />
+        </div>
+
+        {/* Filter Tags */}
+        <div className="flex items-center space-x-1.5 mt-2 overflow-x-auto custom-scrollbar py-0.5">
+          {tags.map((tag) => (
+            <button
+              key={tag}
+              onClick={() => setSelectedTag(tag)}
+              className={`px-2.5 py-1 rounded-xl text-[11px] font-bold whitespace-nowrap transition-all ${
+                selectedTag === tag
+                  ? 'bg-purple-600 text-white shadow-md shadow-purple-600/30'
+                  : 'bg-slate-900/80 text-slate-400 hover:text-white border border-slate-800'
+              }`}
+            >
+              {tag}
+            </button>
+          ))}
         </div>
       </div>
 
-      {/* Spotlight Big Search Bar */}
-      <div className="my-2.5 relative">
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="搜尋任何交通 API（例: 公車、誤點、CCTV、YouBike、起降、CMS）..."
-          className="w-full pl-10 pr-4 py-2.5 rounded-2xl bg-slate-950/90 border border-purple-500/40 focus:border-purple-400 focus:ring-2 focus:ring-purple-500/20 text-sm text-white placeholder-slate-500 outline-none shadow-xl transition-all"
-        />
-        <Search className="w-4 h-4 text-purple-400 absolute left-3.5 top-3.5" />
-      </div>
-
-      {/* Filter Quick Chips */}
-      <div className="flex space-x-1.5 overflow-x-auto pb-2">
-        {tags.map((t) => (
-          <button
-            key={t}
-            onClick={() => setSelectedTag(t === selectedTag ? null : t)}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
-              selectedTag === t || (!selectedTag && t === '全部')
-                ? 'bg-purple-600 text-white shadow-md shadow-purple-500/20'
-                : 'bg-slate-900/80 text-slate-400 border border-slate-800 hover:border-slate-700 hover:text-white'
-            }`}
-          >
-            {t}
-          </button>
-        ))}
-      </div>
-
-      {/* 2-Pane Results Explorer */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 flex-1 overflow-hidden my-1">
-        {/* Left Results List */}
-        <div className="bg-slate-950/80 rounded-2xl border border-slate-800/80 p-2 overflow-y-auto space-y-1">
-          {filtered.length === 0 ? (
-            <div className="p-8 text-center text-slate-500 text-xs">查無符合關鍵字的 API 服務</div>
-          ) : (
-            filtered.map((item, idx) => {
-              const isSelected = selectedItem?.name === item.name;
+      {/* Split Results Area */}
+      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-3 overflow-hidden my-1">
+        {/* Left Search Results List */}
+        <div className="rounded-2xl bg-slate-900/70 border border-slate-800 p-2 overflow-y-auto custom-scrollbar space-y-1.5 flex flex-col justify-between">
+          <div className="space-y-1">
+            {filtered.slice(0, 15).map((ep) => {
+              const isSelected = selectedItem?.id === ep.id;
               return (
                 <div
-                  key={idx}
-                  onClick={() => setSelectedItem(item)}
-                  className={`p-2.5 rounded-xl cursor-pointer transition-all flex items-center justify-between ${
+                  key={ep.id}
+                  onClick={() => setSelectedItem(ep)}
+                  className={`p-2 rounded-xl transition-all flex items-center justify-between cursor-pointer border ${
                     isSelected
-                      ? 'bg-purple-950/60 border border-purple-500/50 text-white shadow-md'
-                      : 'hover:bg-slate-900/60 border border-transparent text-slate-300'
+                      ? 'bg-purple-950/60 border-purple-500/50 text-white'
+                      : 'bg-slate-950/40 hover:bg-slate-950/80 border-transparent text-slate-300'
                   }`}
                 >
-                  <div className="truncate mr-2">
-                    <div className="text-xs font-bold truncate">{item.name}</div>
-                    <div className="text-[10px] text-slate-400 mt-0.5 truncate">{item.categoryName}</div>
-                  </div>
-                  <div className="flex items-center space-x-1 shrink-0">
-                    <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-slate-900 border border-slate-700 text-slate-300">
-                      {item.frequency}
+                  <div className="flex items-center space-x-2 truncate">
+                    <span
+                      className={`text-[9px] font-mono font-bold px-1 rounded ${
+                        ep.httpMethod === 'POST'
+                          ? 'bg-purple-500/20 text-purple-300'
+                          : 'bg-blue-500/20 text-blue-300'
+                      }`}
+                    >
+                      {ep.httpMethod}
                     </span>
-                    <ArrowRight className="w-3.5 h-3.5 text-slate-500" />
+                    <span className="font-bold text-xs truncate max-w-[200px]">{ep.name}</span>
                   </div>
+                  <span className="text-[10px] font-mono text-slate-500 shrink-0 ml-1">
+                    {ep.domain}
+                  </span>
                 </div>
               );
-            })
-          )}
+            })}
+            {filtered.length === 0 && (
+              <div className="text-center py-8 text-slate-500">無符合關鍵字之 API 端點</div>
+            )}
+          </div>
+
+          <div className="pt-2 border-t border-slate-800 text-[10px] font-mono text-slate-500 flex justify-between">
+            <span>匹配到 {filtered.length} 筆端點</span>
+            <span>按 ↑ ↓ 鍵快速切換</span>
+          </div>
         </div>
 
-        {/* Right Detail Pane */}
-        <div className="bg-slate-950/80 rounded-2xl border border-slate-800/80 p-3.5 flex flex-col justify-between overflow-y-auto">
+        {/* Right Selected Endpoint Detail Panel */}
+        <div className="rounded-2xl bg-slate-900/80 border border-slate-800 p-3 flex flex-col justify-between overflow-y-auto custom-scrollbar space-y-2.5">
           {selectedItem ? (
-            <div>
-              <div className="flex items-center justify-between pb-2 border-b border-slate-800">
-                <div>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-500/20 text-purple-300">
-                    {selectedItem.version}
+            <>
+              <div>
+                <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">
+                    {selectedItem.category}
                   </span>
-                  <h4 className="font-extrabold text-sm text-white mt-1">{selectedItem.name}</h4>
-                  <p className="text-[11px] text-slate-400">{selectedItem.categoryName}</p>
+                  <span className="text-[10px] font-mono text-emerald-400">
+                    {selectedItem.updateFrequency}
+                  </span>
                 </div>
-              </div>
 
-              <div className="space-y-2.5 my-3 text-xs">
-                <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
-                  <div className="text-[10px] text-slate-400 mb-1">API 端點 URL:</div>
-                  <div className="flex items-center justify-between bg-black/40 p-1.5 rounded font-mono text-[10px] text-cyan-300">
-                    <span className="truncate">https://tdx.transportdata.tw/api/basic/v2/data</span>
+                <h4 className="font-black text-sm text-white mt-2 mb-1">{selectedItem.name}</h4>
+                <p className="text-[11px] text-slate-300 leading-relaxed font-sans bg-slate-950 p-2.5 rounded-xl border border-slate-800 mb-2">
+                  {selectedItem.description || '提供此服務項目的標準資料查詢與即時回傳。'}
+                </p>
+
+                {/* API Path Box */}
+                <div>
+                  <span className="text-[10px] font-bold text-slate-400 block mb-1">
+                    API Endpoint Path:
+                  </span>
+                  <div className="p-2 rounded-xl bg-slate-950 border border-slate-800 font-mono text-[11px] text-purple-300 flex items-center justify-between">
+                    <span className="truncate">{selectedItem.apiPath}</span>
                     <button
-                      onClick={() => handleCopy('https://tdx.transportdata.tw/api/basic/v2/data')}
-                      className="ml-2 p-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 shrink-0"
+                      onClick={() => handleCopy(selectedItem.apiPath)}
+                      className="p-1 text-purple-400 hover:text-white"
+                      title="複製路徑"
                     >
-                      {copiedPath ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
+                      {copiedPath === selectedItem.apiPath ? (
+                        <Check className="w-3.5 h-3.5 text-emerald-400" />
+                      ) : (
+                        <Copy className="w-3.5 h-3.5" />
+                      )}
                     </button>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2 text-[11px] font-mono">
-                  <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
-                    <span className="text-slate-500 block text-[10px]">更新頻率</span>
-                    <span className="text-white font-bold">{selectedItem.frequency}</span>
+                <div className="grid grid-cols-2 gap-2 text-[10px] font-mono mt-2">
+                  <div className="p-2 rounded-lg bg-slate-950 border border-slate-800">
+                    <span className="text-slate-500">主題:</span>
+                    <div className="text-white font-bold">{selectedItem.theme}</div>
                   </div>
-                  <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
-                    <span className="text-slate-500 block text-[10px]">支援格式</span>
-                    <span className="text-purple-300 font-bold">{selectedItem.format}</span>
+                  <div className="p-2 rounded-lg bg-slate-950 border border-slate-800">
+                    <span className="text-slate-500">計費點數:</span>
+                    <div className="text-amber-400 font-bold">{selectedItem.billingTimes}</div>
                   </div>
-                </div>
-
-                <div className="p-2.5 rounded-xl bg-purple-950/20 border border-purple-500/20 text-[11px] text-purple-200">
-                  ⚡ 計費配額：{selectedItem.quota || '計次 1500次/點 · 150MB/點'}
                 </div>
               </div>
-            </div>
-          ) : (
-            <div className="text-slate-500 text-center py-12">請於左側選擇端點</div>
-          )}
 
-          <div className="text-[10px] text-slate-500 font-mono flex items-center justify-between pt-2 border-t border-slate-800">
-            <span>支援模糊即時比對 (Fuzzy Search)</span>
-            <span className="text-purple-400">SPOTLIGHT ACTIVE</span>
-          </div>
+              <div className="pt-2 border-t border-slate-800 flex justify-end">
+                <button
+                  onClick={() =>
+                    handleCopy(
+                      `curl -X ${selectedItem.httpMethod} "https://tdx.transportdata.tw/api/basic${selectedItem.apiPath}"`
+                    )
+                  }
+                  className="px-4 py-1.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-xs shadow-md"
+                >
+                  複製 cURL 呼叫範例
+                </button>
+              </div>
+            </>
+          ) : (
+            <div className="text-slate-500 text-center py-10">請點選左側端點</div>
+          )}
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="pt-2 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400">
-        <span className="flex items-center gap-1">
-          <Zap className="w-3.5 h-3.5 text-purple-400" />
-          全平臺 150+ 服務即時索引建置完成
-        </span>
-        <span className="font-mono text-purple-400 font-bold">
-          符合項目: {filtered.length} 項
-        </span>
+      {/* Footer Shortcut Bar */}
+      <div className="p-2 bg-slate-950 rounded-xl border border-white/5 flex items-center justify-between text-[11px] text-slate-500 font-mono shrink-0">
+        <span>快速鍵: 輸入關鍵字即時搜尋 · Enter 複製</span>
+        <span>Command Palette v2.2</span>
       </div>
     </div>
   );

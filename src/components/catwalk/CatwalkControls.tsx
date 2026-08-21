@@ -6,10 +6,12 @@ import {
   Volume2,
   VolumeX,
   Keyboard,
+  BookOpen,
   PlusCircle,
   Play,
   Pause,
 } from 'lucide-react';
+
 interface CatwalkControlsProps {
   currentIndex: number;
   totalItems: number;
@@ -17,7 +19,8 @@ interface CatwalkControlsProps {
   onSwipeRight: () => void;
   onOpenRating: () => void;
   onOpenHelp: () => void;
-  onOpenAddCustom: () => void;
+  onOpenExplanation: () => void;
+  onOpenAddCustom?: () => void;
   soundEnabled: boolean;
   onToggleSound: () => void;
   isAutoPlay: boolean;
@@ -37,6 +40,7 @@ export const CatwalkControls: React.FC<CatwalkControlsProps> = ({
   onSwipeRight,
   onOpenRating,
   onOpenHelp,
+  onOpenExplanation,
   onOpenAddCustom,
   soundEnabled,
   onToggleSound,
@@ -53,14 +57,14 @@ export const CatwalkControls: React.FC<CatwalkControlsProps> = ({
   );
 
   return (
-    <div className="w-full max-w-2xl mx-auto mt-4 px-4 flex flex-col items-center">
+    <div className="w-full max-w-2xl mx-auto mt-4 px-4 flex flex-col items-center select-none">
       {/* Progress Dots Bar with Clickable jumps */}
-      <div className="flex items-center space-x-1.5 mb-3 overflow-x-auto max-w-full py-1">
+      <div className="flex items-center space-x-1.5 mb-3 overflow-x-auto max-w-full py-1 custom-scrollbar">
         {Array.from({ length: totalItems }).map((_, i) => (
           <button
             key={i}
             onClick={() => onSelectIndex(i)}
-            title={`跳至第 ${i + 1} 組 UI`}
+            title={`跳至第 ${i + 1} 組走秀 UI`}
             className={`h-2 rounded-full transition-all duration-300 ${
               i === currentIndex
                 ? 'w-8 bg-gradient-to-r from-cyan-400 to-indigo-500 shadow-md shadow-indigo-500/50'
@@ -106,7 +110,7 @@ export const CatwalkControls: React.FC<CatwalkControlsProps> = ({
         </button>
       </div>
 
-      {/* Auxiliary Controls: Auto-Play, Sound, Speed, Add Custom, Shortcuts */}
+      {/* Auxiliary Controls: Auto-Play, Sound, Speed, Showcase Explanation, Shortcuts */}
       <div className="w-full flex flex-wrap items-center justify-between text-xs text-slate-400 mt-3 px-1 gap-2">
         {/* Auto-Play Toggle & Countdown */}
         <div className="flex items-center space-x-2">
@@ -152,8 +156,19 @@ export const CatwalkControls: React.FC<CatwalkControlsProps> = ({
           )}
         </div>
 
-        {/* Right Tools */}
+        {/* Right Tools: Explanation (H), Sound, Add Custom, Shortcuts */}
         <div className="flex items-center space-x-2">
+          {/* Showcase Explanation Trigger (H) */}
+          <button
+            onClick={onOpenExplanation}
+            title="走秀說明 (按鍵盤 H)"
+            className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-indigo-500/20 hover:bg-indigo-500/30 border border-indigo-500/40 text-indigo-300 hover:text-white transition-colors"
+          >
+            <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
+            <span>走秀說明</span>
+            <span className="font-mono text-[10px] bg-black/30 px-1 rounded text-cyan-300">H</span>
+          </button>
+
           {/* Sound Toggle */}
           <button
             onClick={onToggleSound}
@@ -167,14 +182,16 @@ export const CatwalkControls: React.FC<CatwalkControlsProps> = ({
             {soundEnabled ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
           </button>
 
-          {/* Add Custom UI Item */}
-          <button
-            onClick={onOpenAddCustom}
-            className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white transition-colors"
-          >
-            <PlusCircle className="w-3.5 h-3.5 text-indigo-400" />
-            <span className="hidden sm:inline">提供自訂UI</span>
-          </button>
+          {/* Add Custom UI Item (Optional) */}
+          {onOpenAddCustom && (
+            <button
+              onClick={onOpenAddCustom}
+              className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white transition-colors"
+            >
+              <PlusCircle className="w-3.5 h-3.5 text-indigo-400" />
+              <span>自訂</span>
+            </button>
+          )}
 
           {/* Keyboard Help */}
           <button

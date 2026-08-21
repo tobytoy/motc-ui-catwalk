@@ -3,6 +3,7 @@ import { Navbar } from './components/common/Navbar';
 import { CatwalkStage } from './components/catwalk/CatwalkStage';
 import { DashboardView } from './components/dashboard/DashboardView';
 import { KeyboardHelpModal } from './components/common/KeyboardHelpModal';
+import { ShowcaseExplanationModal } from './components/common/ShowcaseExplanationModal';
 import { CustomShowcaseModal } from './components/common/CustomShowcaseModal';
 import { SHOWCASE_PRESETS } from './data/showcases';
 import { ShowcaseItem, Feedback } from './types';
@@ -14,6 +15,8 @@ export const App: React.FC = () => {
   const [showcases, setShowcases] = useState<ShowcaseItem[]>(SHOWCASE_PRESETS);
   const [feedbacks, setFeedbacks] = useState<Feedback[]>([]);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
+  const [isExplanationOpen, setIsExplanationOpen] = useState(false);
+  const [selectedExplanationItem, setSelectedExplanationItem] = useState<ShowcaseItem>(SHOWCASE_PRESETS[0]);
   const [isAddCustomOpen, setIsAddCustomOpen] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
@@ -76,13 +79,21 @@ export const App: React.FC = () => {
     logCatwalkEvent('add_custom_showcase', { title: item.title });
   };
 
+  const handleOpenExplanation = (item?: ShowcaseItem) => {
+    if (item) {
+      setSelectedExplanationItem(item);
+    }
+    setIsExplanationOpen(true);
+  };
+
   return (
-    <div className="min-h-screen bg-[#090b10] text-slate-100 flex flex-col justify-between selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-[#090b10] text-slate-100 flex flex-col justify-between selection:bg-indigo-500 selection:text-white font-sans">
       {/* Navigation Header */}
       <Navbar
         activeTab={activeTab}
         onChangeTab={handleTabChange}
         onOpenHelp={() => setIsHelpOpen(true)}
+        onOpenExplanation={() => handleOpenExplanation(showcases[0])}
         onOpenAddCustom={() => setIsAddCustomOpen(true)}
         totalShowcases={showcases.length}
         totalFeedbacks={feedbacks.length}
@@ -95,6 +106,7 @@ export const App: React.FC = () => {
             showcases={showcases}
             feedbacks={feedbacks}
             onOpenHelp={() => setIsHelpOpen(true)}
+            onOpenExplanation={() => handleOpenExplanation()}
             onOpenAddCustom={() => setIsAddCustomOpen(true)}
             onNavigateDashboard={() => handleTabChange('dashboard')}
             onFeedbackUpdated={handleFeedbackAdded}
@@ -124,6 +136,15 @@ export const App: React.FC = () => {
       <KeyboardHelpModal
         isOpen={isHelpOpen}
         onClose={() => setIsHelpOpen(false)}
+      />
+
+      {/* Showcase Explanation Modal (Top-Level) */}
+      <ShowcaseExplanationModal
+        isOpen={isExplanationOpen}
+        onClose={() => setIsExplanationOpen(false)}
+        currentItem={selectedExplanationItem || showcases[0]}
+        allShowcases={showcases}
+        onSelectItem={(item) => setSelectedExplanationItem(item)}
       />
 
       {/* Add Custom Showcase Modal */}

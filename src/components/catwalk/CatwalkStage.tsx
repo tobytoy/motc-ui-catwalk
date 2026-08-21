@@ -4,6 +4,7 @@ import { ShowcaseItem, Feedback } from '../../types';
 import { CatwalkCard } from './CatwalkCard';
 import { CatwalkControls } from './CatwalkControls';
 import { RatingDrawer } from './RatingDrawer';
+import { ShowcaseExplanationModal } from '../common/ShowcaseExplanationModal';
 import { submitFeedback } from '../../lib/supabase';
 import { logCatwalkEvent } from '../../lib/firebase';
 import {
@@ -14,13 +15,14 @@ import {
   toggleSound,
 } from '../../lib/sound';
 import confetti from 'canvas-confetti';
-import { Sparkles, Trophy, Shuffle } from 'lucide-react';
+import { Sparkles, Trophy, Shuffle, BookOpen } from 'lucide-react';
 
 interface CatwalkStageProps {
   showcases: ShowcaseItem[];
   feedbacks?: Feedback[];
   onOpenHelp: () => void;
-  onOpenAddCustom: () => void;
+  onOpenExplanation?: () => void;
+  onOpenAddCustom?: () => void;
   onNavigateDashboard: () => void;
   onFeedbackUpdated: (feedback: Feedback) => void;
 }
@@ -35,6 +37,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isRatingOpen, setIsRatingOpen] = useState(false);
+  const [isExplanationOpen, setIsExplanationOpen] = useState(false);
   const [soundOn, setSoundOn] = useState(() => isSoundEnabled());
 
   // Auto-Play states
@@ -61,9 +64,16 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
     setAutoPlayProgress(0);
   };
 
+  // Open explanation modal
+  const handleOpenExplanation = useCallback(() => {
+    playOpenSound();
+    setIsExplanationOpen(true);
+    logCatwalkEvent('open_explanation_modal', { ui_id: currentItem.id });
+  }, [currentItem.id]);
+
   // Like Swipe Handler
   const handleLike = useCallback(async () => {
-    if (isRatingOpen) return;
+    if (isRatingOpen || isExplanationOpen) return;
     playLikeSound();
     setAutoPlayProgress(0);
 
@@ -94,11 +104,11 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
 
     // Advance to next
     setCurrentIndex((prev) => (prev + 1) % showcases.length);
-  }, [currentItem, isRatingOpen, showcases.length, onFeedbackUpdated]);
+  }, [currentItem, isRatingOpen, isExplanationOpen, showcases.length, onFeedbackUpdated]);
 
   // Pass Swipe Handler
   const handlePass = useCallback(async () => {
-    if (isRatingOpen) return;
+    if (isRatingOpen || isExplanationOpen) return;
     playPassSound();
     setAutoPlayProgress(0);
 
@@ -118,7 +128,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
 
     // Advance to next
     setCurrentIndex((prev) => (prev + 1) % showcases.length);
-  }, [currentItem, isRatingOpen, showcases.length, onFeedbackUpdated]);
+  }, [currentItem, isRatingOpen, isExplanationOpen, showcases.length, onFeedbackUpdated]);
 
   const handleOpenRating = useCallback(() => {
     playOpenSound();
@@ -145,7 +155,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
 
   // Auto-Play Timer Loop
   useEffect(() => {
-    if (!isAutoPlay || isRatingOpen) {
+    if (!isAutoPlay || isRatingOpen || isExplanationOpen) {
       return;
     }
 
@@ -164,18 +174,21 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
     }, intervalMs);
 
     return () => clearInterval(timer);
-  }, [isAutoPlay, isRatingOpen, autoPlayDuration, showcases.length]);
+  }, [isAutoPlay, isRatingOpen, isExplanationOpen, autoPlayDuration, showcases.length]);
 
-  // Global Keyboard Navigation
+  // Global Keyboard Navigation (including 'h' for explanation)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // If modal/drawer is open and user is typing in form inputs, let drawer handle it
+      // If user is typing in form inputs, let drawer/modal handle it
       const target = e.target as HTMLElement;
       const isTyping =
         target.tagName === 'INPUT' || target.tagName === 'TEXTAREA';
       if (isTyping) return;
 
-      if (e.key === 'ArrowRight') {
+      if (e.key === 'h' || e.key === 'H') {
+        e.preventDefault();
+        setIsExplanationOpen((prev) => !prev);
+      } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         handleLike();
       } else if (e.key === 'ArrowLeft') {
@@ -230,12 +243,23 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
               </span>
             </h1>
             <p className="text-[11px] text-slate-400">
-              左右滑動表達喜好 · 支援自動輪播巡航 · 深度評分與留言
+              左右滑動表達喜好 · 支援自動輪播巡航 · 按 <kbd className="px-1 py-0.2 rounded bg-slate-800 text-cyan-300 border border-slate-700 font-mono text-[10px]">H</kbd> 開啟 3 層資料架構與 UI 說明
             </p>
           </div>
         </div>
 
         <div className="flex items-center space-x-2">
+          {/* Quick Explanation Trigger Button */}
+          <button
+            onClick={handleOpenExplanation}
+            className="flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-xs font-semibold transition-all"
+            title="查看此走秀項目的資料階層與設計說明 (H)"
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">走秀說明</span>
+            <span className="font-mono text-[10px] ml-1 text-slate-400">(H)</span>
+          </button>
+
           <button
             onClick={() => {
               setAutoPlayProgress(0);
@@ -246,6 +270,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
           >
             <Shuffle className="w-3.5 h-3.5" />
           </button>
+
           <button
             onClick={onNavigateDashboard}
             className="flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 border border-indigo-500/40 text-xs font-semibold transition-all"
@@ -278,6 +303,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
               direction === 'right' ? handleLike() : handlePass()
             }
             onOpenRating={handleOpenRating}
+            onOpenExplanation={handleOpenExplanation}
             isAutoPlay={isAutoPlay}
             autoPlayProgress={autoPlayProgress}
             feedbacks={feedbacks}
@@ -294,6 +320,7 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
         onSwipeRight={handleLike}
         onOpenRating={handleOpenRating}
         onOpenHelp={onOpenHelp}
+        onOpenExplanation={handleOpenExplanation}
         onOpenAddCustom={onOpenAddCustom}
         soundEnabled={soundOn}
         onToggleSound={handleToggleSound}
@@ -313,6 +340,18 @@ export const CatwalkStage: React.FC<CatwalkStageProps> = ({
         onPrevItem={handlePrevItem}
         onNextItem={handleNextItem}
         onFeedbackSubmitted={(fb) => onFeedbackUpdated(fb)}
+      />
+
+      {/* Showcase Explanation Modal (Opened with H or Header Button) */}
+      <ShowcaseExplanationModal
+        isOpen={isExplanationOpen}
+        onClose={() => setIsExplanationOpen(false)}
+        currentItem={currentItem}
+        allShowcases={showcases}
+        onSelectItem={(item) => {
+          const idx = showcases.findIndex((s) => s.id === item.id);
+          if (idx >= 0) setCurrentIndex(idx);
+        }}
       />
     </div>
   );

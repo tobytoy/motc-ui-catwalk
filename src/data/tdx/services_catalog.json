@@ -1,221 +1,472 @@
 {
-  "platform": "交通部運輸資料流通服務平臺 (TDX)",
+  "platform": "交通部運輸資料流通服務平臺 (TDX) 最新測試機目錄",
   "officialUrl": "https://tdx.transportdata.tw/data-service/basic",
-  "updatedAt": "2026-08-20T10:00:00+08:00",
+  "updatedAt": "2026-08-21T08:00:00+08:00",
+  "totalEndpoints": 738,
   "categories": [
     {
-      "id": "basic_provincial_highway",
-      "name": "基礎服務 - 省道即時路況與公路客運",
+      "id": "加值服務",
+      "name": "加值服務 (201 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (交通治理)，共收錄 201 支服務端點。",
+      "servicesCount": 201,
+      "quota": "1000 次/點 · 100MB/點",
+      "endpoints": [
+        {
+          "name": "南投縣汽車停車績效指標(年)",
+          "version": "3",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "POST",
+          "path": "/premium/Governance/FriendlyParking/PerformanceIndicatorYear/南投縣/{DateYear}"
+        },
+        {
+          "name": "桃園市轉乘空間縫隙統計",
+          "version": "3",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "POST",
+          "path": "/premium/Governance/PublicTransport/TransferSpaceGap"
+        },
+        {
+          "name": "宜蘭縣肇事風險情報家",
+          "version": "3",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "POST",
+          "path": "/premium/Governance/RoadSafty/JunctionCBI"
+        }
+      ]
+    },
+    {
+      "id": "氣象服務",
+      "name": "氣象服務 (7 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (氣象資料)，共收錄 7 支服務端點。",
+      "servicesCount": 7,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "東亞智慧航路",
+          "version": "1.0.0",
+          "frequency": "每 4 小時",
+          "format": "ZIP",
+          "method": "GET",
+          "path": "/cwb/api/v1/MED/product/raster/analysis/Smart_Route"
+        },
+        {
+          "name": "取得氣象跨域鏈結資料",
+          "version": "1.0.0",
+          "frequency": "每 4 小時",
+          "format": "NULL",
+          "method": "POST",
+          "path": "/cwb/graphql"
+        },
+        {
+          "name": "開放鏈結GraphQL API",
+          "version": "1.0.0",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "POST",
+          "path": "/cwb/graphql"
+        }
+      ]
+    },
+    {
+      "id": "票證服務",
+      "name": "票證服務 (155 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (票證)，共收錄 155 支服務端點。",
+      "servicesCount": 155,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "取得花蓮縣公車電子原始票證資料(段次計費型; TO1類)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/ticket/v1/Ticket/Bus/SectionIC/TO1/HUA"
+        },
+        {
+          "name": "取得金門縣公車電子原始票證資料(段次計費型; TO1類)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/ticket/v1/Ticket/Bus/SectionIC/TO1/KIN"
+        },
+        {
+          "name": "取得金門縣公車電子原始票證資料(上下車刷卡型;TO1A類)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/ticket/v1/Ticket/Bus/ODIC/TO1A/KIN"
+        }
+      ]
+    },
+    {
+      "id": "基礎服務",
+      "name": "基礎服務 (213 支端點)",
       "tier": "Basic (免審核基礎服務)",
-      "description": "提供全臺公路客運路線、時刻表、班表、票價、即時動態(A1/A2)、到站預估(N1)及省道 CCTV、CMS、VD 車輛偵測、eTag 配對路徑等資料。",
-      "servicesCount": 24,
-      "quota": "1500 次/點 · 150MB/點",
+      "description": "涵蓋 8 大主題 (公共運輸、不分類、停車資訊、道路編碼)，共收錄 213 支服務端點。",
+      "servicesCount": 213,
+      "quota": "1000 次/點 · 100MB/點",
       "endpoints": [
         {
-          "name": "全臺公路客運車輛資料",
-          "version": "v2",
-          "frequency": "不定時",
-          "format": "JSON/XML"
+          "name": "取得澎湖縣,[路線名稱]的公車動態定點資料(A2)[批次更新]",
+          "version": "2",
+          "frequency": "每 60 秒",
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/basic/v2/Bus/RealTimeNearStop/City/PenghuCounty/{RouteName}"
         },
         {
-          "name": "全臺縣市代碼資料 (City / County)",
-          "version": "v2",
-          "frequency": "不定時",
-          "format": "JSON/XML"
+          "name": "取得新竹縣的市區公車營運通阻資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/basic/v2/Bus/Alert/City/HsinchuCounty"
         },
         {
-          "name": "公路客運路線與營運時刻表",
-          "version": "v2",
-          "frequency": "每日",
-          "format": "JSON/XML"
+          "name": "取得嘉義縣的公車動態定時資料(A1)[批次更新]",
+          "version": "2",
+          "frequency": "每 60 秒",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/basic/v2/Bus/RealTimeByFrequency/City/ChiayiCounty"
         },
         {
-          "name": "公路客運動態定時資料 (A1) / 定點 (A2)",
-          "version": "v2",
-          "frequency": "每分鐘",
-          "format": "JSON/Streaming/MQTT"
+          "name": "取得PingtungCounty,[路線名稱]的公車動態定時資料(A1)[批次更新]",
+          "version": "2",
+          "frequency": "每 60 秒",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/basic/v2/Bus/RealTimeByFrequency/City/PingtungCounty/{RouteName}"
         },
         {
-          "name": "公路客運預估到站資料 (N1)",
-          "version": "v2",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "取得桃園市資訊可變標誌",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/basic/v2/Road/Traffic/CMS/City/Taoyuan"
         },
         {
-          "name": "省道 CMS 資訊可變標誌即時資訊",
-          "version": "v2",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "取得宜蘭縣資訊可變標誌",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/basic/v2/Road/Traffic/CMS/City/YilanCounty"
         },
         {
-          "name": "省道 CCTV 閉路電視攝影機影像串流",
-          "version": "v2",
-          "frequency": "即時/每日",
-          "format": "JSON/HLS"
+          "name": "取得嘉義市之停車場基本資料",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/basic/v1/Parking/OffStreet/CarPark/City/Chiayi"
         },
         {
-          "name": "省道 VD 車輛偵測器與 eTag 旅行時間",
-          "version": "v2",
-          "frequency": "每小時/每分鐘",
-          "format": "JSON"
+          "name": "取得苗栗縣之停車場基本資料",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/basic/v1/Parking/OffStreet/CarPark/City/MiaoliCounty"
         }
       ]
     },
     {
-      "id": "rail_transit",
-      "name": "軌道運輸 - 臺鐵 / 高鐵 / 都會捷運 / 輕軌",
-      "tier": "Advanced Service",
-      "description": "整合臺鐵局 TRA 全臺列車動態與誤點看板、台灣高鐵 THSR 車次即時座位動態、臺北捷運/新北捷運/桃園機捷/臺中捷運/高雄捷運之列車進站與車廂擁擠度。",
-      "servicesCount": 42,
-      "quota": "即時串流 / 專屬配額",
+      "id": "歷史服務",
+      "name": "歷史服務 (99 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 3 大主題 (道安、路況資訊、公共運輸)，共收錄 99 支服務端點。",
+      "servicesCount": 99,
+      "quota": "專案授權",
       "endpoints": [
         {
-          "name": "臺鐵列車即時誤點資訊 (LiveTrainDelay)",
-          "version": "v2/v3",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "取得雲林縣交通事故資料A2類表二(當事人資料檔)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/historical/v1/TrafficAccident/A2T2/YUN"
         },
         {
-          "name": "臺鐵車站各車次即時動態看板 (StationLiveBoard)",
-          "version": "v3",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "連江縣易肇事路口排行",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "CSV,JSON",
+          "method": "GET",
+          "path": "/historical/v1/TrafficAccident/Rank/LIE/DateFilter/{DateFilter}"
         },
         {
-          "name": "高鐵每日綜合時刻表與自由座配置",
-          "version": "v2",
-          "frequency": "每日",
-          "format": "JSON"
+          "name": "取得彰化縣交通事故資料A1類表二(當事人資料檔)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/historical/v1/TrafficAccident/A1T2/CHA"
         },
         {
-          "name": "都會捷運列車即時進站與班距倒數 (TRTC/KRTC/TYMC)",
-          "version": "v2",
-          "frequency": "每 10 秒",
-          "format": "JSON/MQTT"
+          "name": "取得臺中市,[縣市]的車輛偵測器歷史資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSONL,CSV",
+          "method": "GET",
+          "path": "/historical/v2/Historical/Road/Traffic/VD/City/Taichung"
         },
         {
-          "name": "捷運車廂擁擠度熱圖感測 (TRTC Carriage Density)",
-          "version": "v2",
-          "frequency": "即時",
-          "format": "JSON"
+          "name": "取得高雄市,[縣市]的車輛偵測器歷史資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSONL,CSV",
+          "method": "GET",
+          "path": "/historical/v2/Historical/Road/Traffic/VD/City/Kaohsiung"
+        },
+        {
+          "name": "取得臺南市,[縣市]的車輛偵測器歷史資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSONL,CSV",
+          "method": "GET",
+          "path": "/historical/v2/Historical/Road/Traffic/VD/City/Tainan"
+        },
+        {
+          "name": "取得指定[日期]的公路客運最新消息歷史資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSONL,CSV",
+          "method": "GET",
+          "path": "/historical/v2/Historical/Bus/News/InterCity/{test}"
         }
       ]
     },
     {
-      "id": "city_bus",
-      "name": "都會市區公車 - 全臺 22 縣市公車聯網",
-      "tier": "City Realtime Service",
-      "description": "涵蓋雙北、臺中、高雄、臺南、桃園等全臺各縣市公車即時動態、站點 GIS 座標、秒級到站倒數與無障礙低地板班次。",
-      "servicesCount": 38,
-      "quota": "標準配額 / OpenAPI",
+      "id": "航運服務beta",
+      "name": "航運服務Beta (1 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (公共運輸)，共收錄 1 支服務端點。",
+      "servicesCount": 1,
+      "quota": "專案授權",
       "endpoints": [
         {
-          "name": "縣市公車即時動態位置 (RealTimeByFrequency)",
-          "version": "v2",
-          "frequency": "每 15 秒",
-          "format": "JSON"
-        },
-        {
-          "name": "縣市公車預估到站時間 (EstimatedTimeOfArrival)",
-          "version": "v2",
-          "frequency": "每 15 秒",
-          "format": "JSON"
-        },
-        {
-          "name": "公車站牌與站位幾何圖資 (Stop / Station GIS)",
-          "version": "v2",
+          "name": "取得每日班表資料",
+          "version": "1",
           "frequency": "每日",
-          "format": "GeoJSON/JSON"
+          "format": "JSON,XML",
+          "method": "GET",
+          "path": "/ship/TDX/v2/ShipDailyScheduleList"
         }
       ]
     },
     {
-      "id": "green_micromobility",
-      "name": "微型運具與低碳綠生活 - YouBike 2.0 & 公共充電樁",
-      "tier": "Eco-Mobility Service",
-      "description": "即時串接全臺 YouBike 2.0 車位可借可還剩餘數、電輔車電量監控、全國公共電動車充電站槍位即時功率與佔用率。",
-      "servicesCount": 16,
-      "quota": "即時 / 每分鐘",
+      "id": "進階服務",
+      "name": "進階服務 (21 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (道路編碼)，共收錄 21 支服務端點。",
+      "servicesCount": 21,
+      "quota": "專案授權",
       "endpoints": [
         {
-          "name": "YouBike 2.0 各場站即時車位與可借數量 (Bike Availability)",
-          "version": "v2",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "南投縣[道路名稱]之設施資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/advanced/v2/Road/Transports/CityRoad/NantouCounty/{RoadName}"
         },
         {
-          "name": "YouBike 2.0 站點圖資與導航坐標",
-          "version": "v2",
-          "frequency": "每日",
-          "format": "JSON/GeoJSON"
+          "name": "基隆市[道路名稱]之設施資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/advanced/v2/Road/Transports/CityRoad/Keelung/{RoadName}"
         },
         {
-          "name": "全國電動載具 EV 公共充電站營運與即時空位",
-          "version": "v1",
-          "frequency": "每 3 分鐘",
-          "format": "JSON"
+          "name": "臺北市[道路名稱]之設施資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "XML,JSON",
+          "method": "GET",
+          "path": "/advanced/v2/Road/Transports/CityRoad/Taipei/{RoadName}"
         }
       ]
     },
     {
-      "id": "highway_freeway",
-      "name": "高快速公路 - 國道即時路況與旅行時間",
-      "tier": "National Freeway Service",
-      "description": "高公局 1968 國道 1/3/5 號及快速道路即時車速熱圖、交管高乘載管制、路段事故排除通報、休息服務區即時停車格位。",
-      "servicesCount": 20,
-      "quota": "即時 / 每 2 分鐘",
+      "id": "觀光景點服務",
+      "name": "觀光景點服務 (10 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (觀光資訊)，共收錄 10 支服務端點。",
+      "servicesCount": 10,
+      "quota": "專案授權",
       "endpoints": [
         {
-          "name": "國道各路段即時平均車速 (Freeway Live Speed)",
-          "version": "v2",
-          "frequency": "每 2 分鐘",
-          "format": "JSON"
+          "name": "取得景點基本資料",
+          "version": "2",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "GET",
+          "path": "/tourism/service/odata/V2/Tourism/Attraction"
         },
         {
-          "name": "國道即時旅行時間預估 (Travel Time Matrix)",
-          "version": "v2",
-          "frequency": "每 5 分鐘",
-          "format": "JSON"
+          "name": "取得日月潭纜車售票資料",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "GET",
+          "path": "/tourism/V1/Ropeway/Ticketing"
         },
         {
-          "name": "國道即時通阻與交通事故事件 (Traffic Incident)",
-          "version": "v2",
-          "frequency": "不定時/即時",
-          "format": "JSON"
-        },
-        {
-          "name": "國道服務區即時剩餘停車格 (Service Area Parking)",
-          "version": "v2",
-          "frequency": "每 3 分鐘",
-          "format": "JSON"
+          "name": "取得日月潭港口航線靠港順序資料",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "GET",
+          "path": "/tourism/V1/Ship/StopOfRoute"
         }
       ]
     },
     {
-      "id": "aviation_marine",
-      "name": "航空與航運 - 全臺機場航班與客運港口船班",
-      "tier": "Air & Marine Service",
-      "description": "全臺國際與國內機場（桃機 TPE、松機 TSA、小港 KHH 等）即時航班起降狀態看板(FIDS)、行李轉盤、港口客運航線與風浪海象停航預警。",
-      "servicesCount": 18,
-      "quota": "即時 / 每 3 分鐘",
+      "id": "機敏服務",
+      "name": "機敏服務 (22 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (道安)，共收錄 22 支服務端點。",
+      "servicesCount": 22,
+      "quota": "專案授權",
       "endpoints": [
         {
-          "name": "全臺機場航班即時起降看板 (Air FIDS)",
-          "version": "v2",
-          "frequency": "每分鐘",
-          "format": "JSON"
+          "name": "取得臺南市交通事故資料A1類表一(事故主檔)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/confidential/v1/TrafficAccident/A1T1/TNN"
         },
         {
-          "name": "航空公司與航廈登機門對應 (Airlines / Gates)",
-          "version": "v2",
-          "frequency": "每日",
-          "format": "JSON"
+          "name": "取得桃園市交通事故資料A1類表一(事故主檔)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/confidential/v1/TrafficAccident/A1T1/TAO"
         },
         {
-          "name": "國內客運客船航線與即時開航/停航動態",
-          "version": "v2",
-          "frequency": "每 10 分鐘",
-          "format": "JSON"
+          "name": "取得嘉義縣交通事故資料A1類表一(事故主檔)",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,CSV",
+          "method": "GET",
+          "path": "/confidential/v1/TrafficAccident/A1T1/CYQ"
+        }
+      ]
+    },
+    {
+      "id": "gtfs服務beta",
+      "name": "GTFS服務Beta (4 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (GTFS)，共收錄 4 支服務端點。",
+      "servicesCount": 4,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "臺北捷運班次更新GTFS動態資料",
+          "version": "1",
+          "frequency": "即時/動態",
+          "format": "JSON",
+          "method": "NULL",
+          "path": "/GTFS"
+        },
+        {
+          "name": "臺北捷運車輛位置VehiclePosition",
+          "version": "1",
+          "frequency": "每 60 秒",
+          "format": "JSON",
+          "method": "NULL",
+          "path": "/GTFSv1/GTFS/Realtime/VehiclePosition/Rail/TRTC"
+        },
+        {
+          "name": "動態 GTFS",
+          "version": "3",
+          "frequency": "每 4 小時",
+          "format": "NULL",
+          "method": "GET",
+          "path": "/GTFS"
+        }
+      ]
+    },
+    {
+      "id": "臺北轉運站訂票導訂",
+      "name": "臺北轉運站訂票導訂 (2 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (票證)，共收錄 2 支服務端點。",
+      "servicesCount": 2,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "TBS臺北轉運站APP導訂連結",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,TEXT",
+          "method": "GET",
+          "path": "/TBS/api/BookingSeat/TBSDeepLink"
+        },
+        {
+          "name": "可售起迄端點",
+          "version": "1",
+          "frequency": "每 4 小時",
+          "format": "JSON,TEXT",
+          "method": "GET",
+          "path": "/TBS/api/BookingSeat/SaleLineStation"
+        }
+      ]
+    },
+    {
+      "id": "maas服務",
+      "name": "MaaS服務 (2 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 2 大主題 (共享運具、旅運規劃Beta)，共收錄 2 支服務端點。",
+      "servicesCount": 2,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "取得指定[起點],[迄點]跨運具旅運規劃結果",
+          "version": "1.0",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "GET",
+          "path": "/maas/routing"
+        },
+        {
+          "name": "取得指定[起點],[迄點]跨運具旅運規劃結果",
+          "version": "1.0",
+          "frequency": "每 4 小時",
+          "format": "JSON",
+          "method": "GET",
+          "path": "/maas/routing"
+        }
+      ]
+    },
+    {
+      "id": "maas服務(附加)-台鐵訂票導訂",
+      "name": "MaaS服務(附加)-台鐵訂票導訂 (1 支端點)",
+      "tier": "Premium (加值/專屬服務)",
+      "description": "涵蓋 1 大主題 (公共運輸)，共收錄 1 支服務端點。",
+      "servicesCount": 1,
+      "quota": "專案授權",
+      "endpoints": [
+        {
+          "name": "藉由uuid取得台鐵提供的「台鐵e訂通」APP深度鏈結網址，以喚醒該APP。",
+          "version": "1.0",
+          "frequency": "每 4 小時",
+          "format": "NULL",
+          "method": "GET",
+          "path": "/maas-tra/booking/deeplink/url/tra"
         }
       ]
     }

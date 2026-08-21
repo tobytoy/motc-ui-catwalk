@@ -10,6 +10,12 @@ interface KeyboardHelpModalProps {
 export const KeyboardHelpModal: React.FC<KeyboardHelpModalProps> = ({ isOpen, onClose }) => {
   const shortcuts = [
     {
+      keys: ['H'],
+      action: '走秀說明 (Showcase Guide)',
+      desc: '彈出當前走秀項目的 3 層資料階層架構圖解、設計理念與受眾友善度分析',
+      color: 'text-cyan-400 border-cyan-500/40 bg-cyan-500/15',
+    },
+    {
       keys: ['→', '右鍵 / 右滑'],
       action: '喜歡 (Like)',
       desc: '將當前走秀卡片向右拋出並記錄喜歡，自動切換至下一組',
@@ -68,20 +74,20 @@ export const KeyboardHelpModal: React.FC<KeyboardHelpModalProps> = ({ isOpen, on
   return (
     <AnimatePresence>
       {isOpen && (
-        <>
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-black/80 backdrop-blur-md z-50"
+            className="fixed inset-0 bg-black/80 backdrop-blur-md"
           />
 
           <motion.div
             initial={{ scale: 0.95, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 20 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-xl z-50 bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-7 shadow-2xl text-slate-100 max-h-[90vh] overflow-y-auto"
+            className="relative w-full max-w-xl z-10 bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-7 shadow-2xl text-slate-100 max-h-[90vh] overflow-y-auto custom-scrollbar select-none my-auto"
           >
             <div className="flex items-center justify-between pb-4 border-b border-white/10 mb-4">
               <div className="flex items-center space-x-3">
@@ -136,7 +142,7 @@ export const KeyboardHelpModal: React.FC<KeyboardHelpModalProps> = ({ isOpen, on
               </button>
             </div>
           </motion.div>
-        </>
+        </div>
       )}
     </AnimatePresence>
   );

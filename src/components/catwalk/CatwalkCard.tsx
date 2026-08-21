@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, useMotionValue, useTransform, PanInfo } from 'framer-motion';
 import { ShowcaseItem, Feedback } from '../../types';
 import { DynamicUIRenderer } from '../demo-uis';
-import { Heart, X, Tag, Sparkles, MessageSquare } from 'lucide-react';
+import { Heart, X, Tag, Sparkles, MessageSquare, BookOpen } from 'lucide-react';
 import { submitFeedback } from '../../lib/supabase';
 import { logCatwalkEvent } from '../../lib/firebase';
 import { playLikeSound } from '../../lib/sound';
@@ -13,6 +13,7 @@ interface CatwalkCardProps {
   isTop: boolean;
   onSwipe: (direction: 'left' | 'right') => void;
   onOpenRating: () => void;
+  onOpenExplanation?: () => void;
   isAutoPlay?: boolean;
   autoPlayProgress?: number; // 0 - 100
   feedbacks?: Feedback[];
@@ -26,6 +27,7 @@ export const CatwalkCard: React.FC<CatwalkCardProps> = ({
   isTop,
   onSwipe,
   onOpenRating,
+  onOpenExplanation,
   isAutoPlay = false,
   autoPlayProgress = 0,
   feedbacks = [],
@@ -249,16 +251,32 @@ export const CatwalkCard: React.FC<CatwalkCardProps> = ({
           )}
         </div>
 
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onOpenRating();
-          }}
-          className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white text-xs font-bold transition-all shadow-md shadow-indigo-500/20 hover:scale-105"
-        >
-          <Sparkles className="w-3.5 h-3.5 text-cyan-200" />
-          <span>深度評分與留言 (↑)</span>
-        </button>
+        <div className="flex items-center space-x-2">
+          {onOpenExplanation && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onOpenExplanation();
+              }}
+              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-indigo-300 hover:text-white border border-slate-700/80 text-xs font-bold transition-all hover:scale-105"
+              title="查看走秀說明 (H)"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
+              <span>走秀說明 (H)</span>
+            </button>
+          )}
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onOpenRating();
+            }}
+            className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white text-xs font-bold transition-all shadow-md shadow-indigo-500/20 hover:scale-105"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-cyan-200" />
+            <span>深度評分 (↑)</span>
+          </button>
+        </div>
       </div>
     </motion.div>
   );
